@@ -13,19 +13,13 @@ extension UIView {
 	/**
 	@brief adds blur effect to any view
 	*/
-	func addBlurEffect(_ toNavBar : Bool) {
-		// Add blur view
-    let bounds = self.bounds
-		let visualEffectView = UIView()
-		visualEffectView.frame = bounds
-		visualEffectView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
-		self.addSubview(visualEffectView)
-		visualEffectView.layer.zPosition -= 5
-		if(toNavBar){
-			visualEffectView.tag = 0
-		}
-		self.sendSubview(toBack: visualEffectView)
-	}
+	func addBlurEffect() {
+    let blur = UIVisualEffectView(effect: UIBlurEffect(style: .regular))
+    blur.frame = self.bounds
+    blur.isUserInteractionEnabled = false
+    self.insertSubview(blur, at: 0)
+    self.sendSubview(toBack: blur)
+  }
 	
 	/**
 	@brief It moves view horizontally by given delta

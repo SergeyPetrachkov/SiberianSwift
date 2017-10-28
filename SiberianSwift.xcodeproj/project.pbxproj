@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3903E40C1FA4EA3300C2DB2C /* SiberianSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3903E4021FA4EA3300C2DB2C /* SiberianSwift.framework */; };
-		3903E4111FA4EA3300C2DB2C /* SwiftyExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3903E4101FA4EA3300C2DB2C /* SwiftyExtensionsTests.swift */; };
 		3903E4131FA4EA3300C2DB2C /* SiberianSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 3903E4051FA4EA3300C2DB2C /* SiberianSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3903E4311FA4EB0B00C2DB2C /* UIImage+Siberia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3903E41D1FA4EB0A00C2DB2C /* UIImage+Siberia.swift */; };
 		3903E4321FA4EB0B00C2DB2C /* UIApplication+Siberia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3903E41E1FA4EB0A00C2DB2C /* UIApplication+Siberia.swift */; };
@@ -17,25 +15,15 @@
 		3903E4391FA4EB0B00C2DB2C /* UIView+Siberia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3903E4251FA4EB0A00C2DB2C /* UIView+Siberia.swift */; };
 		3903E4411FA4EB0B00C2DB2C /* UIColor+Siberia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3903E42D1FA4EB0B00C2DB2C /* UIColor+Siberia.swift */; };
 		3903E4421FA4EB0B00C2DB2C /* FileManager+Siberia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3903E42E1FA4EB0B00C2DB2C /* FileManager+Siberia.swift */; };
+		391B73C51FA4F7410088676F /* NSMutableAttributedString+Siberia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391B73BE1FA4F7400088676F /* NSMutableAttributedString+Siberia.swift */; };
+		391B73CA1FA4F7410088676F /* Error+Siberia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391B73C31FA4F7410088676F /* Error+Siberia.swift */; };
+		391B73CB1FA4F7410088676F /* Date+Siberia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391B73C41FA4F7410088676F /* Date+Siberia.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		3903E40D1FA4EA3300C2DB2C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3903E3F91FA4EA3200C2DB2C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3903E4011FA4EA3200C2DB2C;
-			remoteInfo = SwiftyExtensions;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		3903E4021FA4EA3300C2DB2C /* SiberianSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SiberianSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3903E4051FA4EA3300C2DB2C /* SiberianSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SiberianSwift.h; sourceTree = "<group>"; };
 		3903E4061FA4EA3300C2DB2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3903E40B1FA4EA3300C2DB2C /* SiberianSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SiberianSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3903E4101FA4EA3300C2DB2C /* SwiftyExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyExtensionsTests.swift; sourceTree = "<group>"; };
-		3903E4121FA4EA3300C2DB2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3903E41D1FA4EB0A00C2DB2C /* UIImage+Siberia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Siberia.swift"; sourceTree = "<group>"; };
 		3903E41E1FA4EB0A00C2DB2C /* UIApplication+Siberia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+Siberia.swift"; sourceTree = "<group>"; };
 		3903E4201FA4EB0A00C2DB2C /* String+Siberia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Siberia.swift"; sourceTree = "<group>"; };
@@ -43,6 +31,9 @@
 		3903E4251FA4EB0A00C2DB2C /* UIView+Siberia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Siberia.swift"; sourceTree = "<group>"; };
 		3903E42D1FA4EB0B00C2DB2C /* UIColor+Siberia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Siberia.swift"; sourceTree = "<group>"; };
 		3903E42E1FA4EB0B00C2DB2C /* FileManager+Siberia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FileManager+Siberia.swift"; sourceTree = "<group>"; };
+		391B73BE1FA4F7400088676F /* NSMutableAttributedString+Siberia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSMutableAttributedString+Siberia.swift"; sourceTree = "<group>"; };
+		391B73C31FA4F7410088676F /* Error+Siberia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Error+Siberia.swift"; sourceTree = "<group>"; };
+		391B73C41FA4F7410088676F /* Date+Siberia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Siberia.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,14 +44,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3903E4081FA4EA3300C2DB2C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3903E40C1FA4EA3300C2DB2C /* SiberianSwift.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -68,7 +51,6 @@
 			isa = PBXGroup;
 			children = (
 				3903E4041FA4EA3300C2DB2C /* SiberianSwift */,
-				3903E40F1FA4EA3300C2DB2C /* SiberianSwiftTests */,
 				3903E4031FA4EA3300C2DB2C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -77,7 +59,6 @@
 			isa = PBXGroup;
 			children = (
 				3903E4021FA4EA3300C2DB2C /* SiberianSwift.framework */,
-				3903E40B1FA4EA3300C2DB2C /* SiberianSwiftTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -92,18 +73,12 @@
 			path = SiberianSwift;
 			sourceTree = "<group>";
 		};
-		3903E40F1FA4EA3300C2DB2C /* SiberianSwiftTests */ = {
-			isa = PBXGroup;
-			children = (
-				3903E4101FA4EA3300C2DB2C /* SwiftyExtensionsTests.swift */,
-				3903E4121FA4EA3300C2DB2C /* Info.plist */,
-			);
-			path = SiberianSwiftTests;
-			sourceTree = "<group>";
-		};
 		3903E41C1FA4EA9600C2DB2C /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				391B73C41FA4F7410088676F /* Date+Siberia.swift */,
+				391B73C31FA4F7410088676F /* Error+Siberia.swift */,
+				391B73BE1FA4F7400088676F /* NSMutableAttributedString+Siberia.swift */,
 				3903E42E1FA4EB0B00C2DB2C /* FileManager+Siberia.swift */,
 				3903E4201FA4EB0A00C2DB2C /* String+Siberia.swift */,
 				3903E41E1FA4EB0A00C2DB2C /* UIApplication+Siberia.swift */,
@@ -147,24 +122,6 @@
 			productReference = 3903E4021FA4EA3300C2DB2C /* SiberianSwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		3903E40A1FA4EA3300C2DB2C /* SiberianSwiftTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3903E4191FA4EA3300C2DB2C /* Build configuration list for PBXNativeTarget "SiberianSwiftTests" */;
-			buildPhases = (
-				3903E4071FA4EA3300C2DB2C /* Sources */,
-				3903E4081FA4EA3300C2DB2C /* Frameworks */,
-				3903E4091FA4EA3300C2DB2C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3903E40E1FA4EA3300C2DB2C /* PBXTargetDependency */,
-			);
-			name = SiberianSwiftTests;
-			productName = SwiftyExtensionsTests;
-			productReference = 3903E40B1FA4EA3300C2DB2C /* SiberianSwiftTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -178,10 +135,6 @@
 					3903E4011FA4EA3200C2DB2C = {
 						CreatedOnToolsVersion = 9.0.1;
 						LastSwiftMigration = 0900;
-						ProvisioningStyle = Automatic;
-					};
-					3903E40A1FA4EA3300C2DB2C = {
-						CreatedOnToolsVersion = 9.0.1;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -199,20 +152,12 @@
 			projectRoot = "";
 			targets = (
 				3903E4011FA4EA3200C2DB2C /* SiberianSwift */,
-				3903E40A1FA4EA3300C2DB2C /* SiberianSwiftTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		3903E4001FA4EA3200C2DB2C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3903E4091FA4EA3300C2DB2C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -226,33 +171,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				391B73C51FA4F7410088676F /* NSMutableAttributedString+Siberia.swift in Sources */,
 				3903E4411FA4EB0B00C2DB2C /* UIColor+Siberia.swift in Sources */,
 				3903E4351FA4EB0B00C2DB2C /* UIDevice+Siberia.swift in Sources */,
+				391B73CB1FA4F7410088676F /* Date+Siberia.swift in Sources */,
 				3903E4341FA4EB0B00C2DB2C /* String+Siberia.swift in Sources */,
 				3903E4421FA4EB0B00C2DB2C /* FileManager+Siberia.swift in Sources */,
+				391B73CA1FA4F7410088676F /* Error+Siberia.swift in Sources */,
 				3903E4321FA4EB0B00C2DB2C /* UIApplication+Siberia.swift in Sources */,
 				3903E4391FA4EB0B00C2DB2C /* UIView+Siberia.swift in Sources */,
 				3903E4311FA4EB0B00C2DB2C /* UIImage+Siberia.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3903E4071FA4EA3300C2DB2C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3903E4111FA4EA3300C2DB2C /* SwiftyExtensionsTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		3903E40E1FA4EA3300C2DB2C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3903E4011FA4EA3200C2DB2C /* SiberianSwift */;
-			targetProxy = 3903E40D1FA4EA3300C2DB2C /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		3903E4141FA4EA3300C2DB2C /* Debug */ = {
@@ -411,34 +343,6 @@
 			};
 			name = Release;
 		};
-		3903E41A1FA4EA3300C2DB2C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SwiftyExtensionsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.petrachkov.SwiftyExtensionsTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		3903E41B1FA4EA3300C2DB2C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SwiftyExtensionsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.petrachkov.SwiftyExtensionsTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -456,15 +360,6 @@
 			buildConfigurations = (
 				3903E4171FA4EA3300C2DB2C /* Debug */,
 				3903E4181FA4EA3300C2DB2C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3903E4191FA4EA3300C2DB2C /* Build configuration list for PBXNativeTarget "SiberianSwiftTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3903E41A1FA4EA3300C2DB2C /* Debug */,
-				3903E41B1FA4EA3300C2DB2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
