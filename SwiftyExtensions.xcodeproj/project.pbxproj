@@ -10,6 +10,13 @@
 		3903E40C1FA4EA3300C2DB2C /* SwiftyExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3903E4021FA4EA3300C2DB2C /* SwiftyExtensions.framework */; };
 		3903E4111FA4EA3300C2DB2C /* SwiftyExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3903E4101FA4EA3300C2DB2C /* SwiftyExtensionsTests.swift */; };
 		3903E4131FA4EA3300C2DB2C /* SwiftyExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 3903E4051FA4EA3300C2DB2C /* SwiftyExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3903E4311FA4EB0B00C2DB2C /* UIImage+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3903E41D1FA4EB0A00C2DB2C /* UIImage+.swift */; };
+		3903E4321FA4EB0B00C2DB2C /* UIApplication+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3903E41E1FA4EB0A00C2DB2C /* UIApplication+.swift */; };
+		3903E4341FA4EB0B00C2DB2C /* String+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3903E4201FA4EB0A00C2DB2C /* String+.swift */; };
+		3903E4351FA4EB0B00C2DB2C /* UIDevice+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3903E4211FA4EB0A00C2DB2C /* UIDevice+.swift */; };
+		3903E4391FA4EB0B00C2DB2C /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3903E4251FA4EB0A00C2DB2C /* UIView+.swift */; };
+		3903E4411FA4EB0B00C2DB2C /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3903E42D1FA4EB0B00C2DB2C /* UIColor+.swift */; };
+		3903E4421FA4EB0B00C2DB2C /* FileManager+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3903E42E1FA4EB0B00C2DB2C /* FileManager+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +36,13 @@
 		3903E40B1FA4EA3300C2DB2C /* SwiftyExtensionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyExtensionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3903E4101FA4EA3300C2DB2C /* SwiftyExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyExtensionsTests.swift; sourceTree = "<group>"; };
 		3903E4121FA4EA3300C2DB2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3903E41D1FA4EB0A00C2DB2C /* UIImage+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+.swift"; sourceTree = "<group>"; };
+		3903E41E1FA4EB0A00C2DB2C /* UIApplication+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+.swift"; sourceTree = "<group>"; };
+		3903E4201FA4EB0A00C2DB2C /* String+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+.swift"; sourceTree = "<group>"; };
+		3903E4211FA4EB0A00C2DB2C /* UIDevice+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIDevice+.swift"; sourceTree = "<group>"; };
+		3903E4251FA4EB0A00C2DB2C /* UIView+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
+		3903E42D1FA4EB0B00C2DB2C /* UIColor+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
+		3903E42E1FA4EB0B00C2DB2C /* FileManager+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FileManager+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +85,7 @@
 		3903E4041FA4EA3300C2DB2C /* SwiftyExtensions */ = {
 			isa = PBXGroup;
 			children = (
+				3903E41C1FA4EA9600C2DB2C /* Classes */,
 				3903E4051FA4EA3300C2DB2C /* SwiftyExtensions.h */,
 				3903E4061FA4EA3300C2DB2C /* Info.plist */,
 			);
@@ -84,6 +99,20 @@
 				3903E4121FA4EA3300C2DB2C /* Info.plist */,
 			);
 			path = SwiftyExtensionsTests;
+			sourceTree = "<group>";
+		};
+		3903E41C1FA4EA9600C2DB2C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3903E42E1FA4EB0B00C2DB2C /* FileManager+.swift */,
+				3903E4201FA4EB0A00C2DB2C /* String+.swift */,
+				3903E41E1FA4EB0A00C2DB2C /* UIApplication+.swift */,
+				3903E42D1FA4EB0B00C2DB2C /* UIColor+.swift */,
+				3903E4211FA4EB0A00C2DB2C /* UIDevice+.swift */,
+				3903E41D1FA4EB0A00C2DB2C /* UIImage+.swift */,
+				3903E4251FA4EB0A00C2DB2C /* UIView+.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +177,7 @@
 				TargetAttributes = {
 					3903E4011FA4EA3200C2DB2C = {
 						CreatedOnToolsVersion = 9.0.1;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					3903E40A1FA4EA3300C2DB2C = {
@@ -196,6 +226,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3903E4411FA4EB0B00C2DB2C /* UIColor+.swift in Sources */,
+				3903E4351FA4EB0B00C2DB2C /* UIDevice+.swift in Sources */,
+				3903E4341FA4EB0B00C2DB2C /* String+.swift in Sources */,
+				3903E4421FA4EB0B00C2DB2C /* FileManager+.swift in Sources */,
+				3903E4321FA4EB0B00C2DB2C /* UIApplication+.swift in Sources */,
+				3903E4391FA4EB0B00C2DB2C /* UIView+.swift in Sources */,
+				3903E4311FA4EB0B00C2DB2C /* UIImage+.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +371,7 @@
 		3903E4171FA4EA3300C2DB2C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -346,6 +384,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.petrachkov.SwiftyExtensions;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -354,6 +393,7 @@
 		3903E4181FA4EA3300C2DB2C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -374,6 +414,7 @@
 		3903E41A1FA4EA3300C2DB2C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SwiftyExtensionsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -387,6 +428,7 @@
 		3903E41B1FA4EA3300C2DB2C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SwiftyExtensionsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
