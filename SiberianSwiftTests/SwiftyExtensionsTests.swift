@@ -1,15 +1,15 @@
 //
-//  SwiftyExtensionsTests.swift
-//  SwiftyExtensionsTests
+//  SiberianSwiftTests.swift
+//  SiberianSwiftTests
 //
 //  Created by Sergey Petrachkov on 28/10/2017.
 //  Copyright © 2017 Sergey Petrachkov. All rights reserved.
 //
 
 import XCTest
-@testable import SwiftyExtensions
+@testable import SiberianSwift
 
-class SwiftyExtensionsTests: XCTestCase {
+class SiberianSwiftTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

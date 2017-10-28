@@ -1,9 +1,9 @@
 //
 //  FileManager+.swift
-//  SwiftyExtensions
+//  SiberianSwift
 //
 //  Created by sergey petrachkov on 09/12/2016.
-//  Copyright © 2017 SwiftyExtensions. All rights reserved.
+//  Copyright © 2017 SiberianSwift. All rights reserved.
 //
 
 import Foundation

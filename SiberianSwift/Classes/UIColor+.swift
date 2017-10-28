@@ -1,9 +1,9 @@
 //
 //  UIColor+.swift
-//  SwiftyExtensions
+//  SiberianSwift
 //
 //  Created by Sergey Petrachkov on 28/10/2017.
-//  Copyright © 2016 SwiftyExtensions. All rights reserved.
+//  Copyright © 2016 SiberianSwift. All rights reserved.
 //
 
 import UIKit
