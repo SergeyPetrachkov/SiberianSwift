@@ -1,5 +1,5 @@
 //
-//  String+.swift
+//  String+Siberia.swift
 //  SiberianSwift
 //
 //  Created by Sergey Petrachkov on 28.10.2017
@@ -9,6 +9,7 @@
 import UIKit
 
 extension String {
+  
 	static func randomString(length: Int) -> String {
 		
 		let letters : NSString = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"

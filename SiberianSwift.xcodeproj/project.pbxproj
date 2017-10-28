@@ -10,13 +10,13 @@
 		3903E40C1FA4EA3300C2DB2C /* SiberianSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3903E4021FA4EA3300C2DB2C /* SiberianSwift.framework */; };
 		3903E4111FA4EA3300C2DB2C /* SwiftyExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3903E4101FA4EA3300C2DB2C /* SwiftyExtensionsTests.swift */; };
 		3903E4131FA4EA3300C2DB2C /* SiberianSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 3903E4051FA4EA3300C2DB2C /* SiberianSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3903E4311FA4EB0B00C2DB2C /* UIImage+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3903E41D1FA4EB0A00C2DB2C /* UIImage+.swift */; };
-		3903E4321FA4EB0B00C2DB2C /* UIApplication+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3903E41E1FA4EB0A00C2DB2C /* UIApplication+.swift */; };
-		3903E4341FA4EB0B00C2DB2C /* String+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3903E4201FA4EB0A00C2DB2C /* String+.swift */; };
-		3903E4351FA4EB0B00C2DB2C /* UIDevice+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3903E4211FA4EB0A00C2DB2C /* UIDevice+.swift */; };
-		3903E4391FA4EB0B00C2DB2C /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3903E4251FA4EB0A00C2DB2C /* UIView+.swift */; };
-		3903E4411FA4EB0B00C2DB2C /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3903E42D1FA4EB0B00C2DB2C /* UIColor+.swift */; };
-		3903E4421FA4EB0B00C2DB2C /* FileManager+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3903E42E1FA4EB0B00C2DB2C /* FileManager+.swift */; };
+		3903E4311FA4EB0B00C2DB2C /* UIImage+Siberia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3903E41D1FA4EB0A00C2DB2C /* UIImage+Siberia.swift */; };
+		3903E4321FA4EB0B00C2DB2C /* UIApplication+Siberia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3903E41E1FA4EB0A00C2DB2C /* UIApplication+Siberia.swift */; };
+		3903E4341FA4EB0B00C2DB2C /* String+Siberia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3903E4201FA4EB0A00C2DB2C /* String+Siberia.swift */; };
+		3903E4351FA4EB0B00C2DB2C /* UIDevice+Siberia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3903E4211FA4EB0A00C2DB2C /* UIDevice+Siberia.swift */; };
+		3903E4391FA4EB0B00C2DB2C /* UIView+Siberia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3903E4251FA4EB0A00C2DB2C /* UIView+Siberia.swift */; };
+		3903E4411FA4EB0B00C2DB2C /* UIColor+Siberia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3903E42D1FA4EB0B00C2DB2C /* UIColor+Siberia.swift */; };
+		3903E4421FA4EB0B00C2DB2C /* FileManager+Siberia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3903E42E1FA4EB0B00C2DB2C /* FileManager+Siberia.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,13 +36,13 @@
 		3903E40B1FA4EA3300C2DB2C /* SiberianSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SiberianSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3903E4101FA4EA3300C2DB2C /* SwiftyExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyExtensionsTests.swift; sourceTree = "<group>"; };
 		3903E4121FA4EA3300C2DB2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3903E41D1FA4EB0A00C2DB2C /* UIImage+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+.swift"; sourceTree = "<group>"; };
-		3903E41E1FA4EB0A00C2DB2C /* UIApplication+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+.swift"; sourceTree = "<group>"; };
-		3903E4201FA4EB0A00C2DB2C /* String+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+.swift"; sourceTree = "<group>"; };
-		3903E4211FA4EB0A00C2DB2C /* UIDevice+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIDevice+.swift"; sourceTree = "<group>"; };
-		3903E4251FA4EB0A00C2DB2C /* UIView+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
-		3903E42D1FA4EB0B00C2DB2C /* UIColor+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
-		3903E42E1FA4EB0B00C2DB2C /* FileManager+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FileManager+.swift"; sourceTree = "<group>"; };
+		3903E41D1FA4EB0A00C2DB2C /* UIImage+Siberia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Siberia.swift"; sourceTree = "<group>"; };
+		3903E41E1FA4EB0A00C2DB2C /* UIApplication+Siberia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+Siberia.swift"; sourceTree = "<group>"; };
+		3903E4201FA4EB0A00C2DB2C /* String+Siberia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Siberia.swift"; sourceTree = "<group>"; };
+		3903E4211FA4EB0A00C2DB2C /* UIDevice+Siberia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIDevice+Siberia.swift"; sourceTree = "<group>"; };
+		3903E4251FA4EB0A00C2DB2C /* UIView+Siberia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Siberia.swift"; sourceTree = "<group>"; };
+		3903E42D1FA4EB0B00C2DB2C /* UIColor+Siberia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Siberia.swift"; sourceTree = "<group>"; };
+		3903E42E1FA4EB0B00C2DB2C /* FileManager+Siberia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FileManager+Siberia.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,13 +104,13 @@
 		3903E41C1FA4EA9600C2DB2C /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				3903E42E1FA4EB0B00C2DB2C /* FileManager+.swift */,
-				3903E4201FA4EB0A00C2DB2C /* String+.swift */,
-				3903E41E1FA4EB0A00C2DB2C /* UIApplication+.swift */,
-				3903E42D1FA4EB0B00C2DB2C /* UIColor+.swift */,
-				3903E4211FA4EB0A00C2DB2C /* UIDevice+.swift */,
-				3903E41D1FA4EB0A00C2DB2C /* UIImage+.swift */,
-				3903E4251FA4EB0A00C2DB2C /* UIView+.swift */,
+				3903E42E1FA4EB0B00C2DB2C /* FileManager+Siberia.swift */,
+				3903E4201FA4EB0A00C2DB2C /* String+Siberia.swift */,
+				3903E41E1FA4EB0A00C2DB2C /* UIApplication+Siberia.swift */,
+				3903E42D1FA4EB0B00C2DB2C /* UIColor+Siberia.swift */,
+				3903E4211FA4EB0A00C2DB2C /* UIDevice+Siberia.swift */,
+				3903E41D1FA4EB0A00C2DB2C /* UIImage+Siberia.swift */,
+				3903E4251FA4EB0A00C2DB2C /* UIView+Siberia.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -226,13 +226,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3903E4411FA4EB0B00C2DB2C /* UIColor+.swift in Sources */,
-				3903E4351FA4EB0B00C2DB2C /* UIDevice+.swift in Sources */,
-				3903E4341FA4EB0B00C2DB2C /* String+.swift in Sources */,
-				3903E4421FA4EB0B00C2DB2C /* FileManager+.swift in Sources */,
-				3903E4321FA4EB0B00C2DB2C /* UIApplication+.swift in Sources */,
-				3903E4391FA4EB0B00C2DB2C /* UIView+.swift in Sources */,
-				3903E4311FA4EB0B00C2DB2C /* UIImage+.swift in Sources */,
+				3903E4411FA4EB0B00C2DB2C /* UIColor+Siberia.swift in Sources */,
+				3903E4351FA4EB0B00C2DB2C /* UIDevice+Siberia.swift in Sources */,
+				3903E4341FA4EB0B00C2DB2C /* String+Siberia.swift in Sources */,
+				3903E4421FA4EB0B00C2DB2C /* FileManager+Siberia.swift in Sources */,
+				3903E4321FA4EB0B00C2DB2C /* UIApplication+Siberia.swift in Sources */,
+				3903E4391FA4EB0B00C2DB2C /* UIView+Siberia.swift in Sources */,
+				3903E4311FA4EB0B00C2DB2C /* UIImage+Siberia.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

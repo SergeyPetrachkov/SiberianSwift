@@ -1,5 +1,5 @@
 //
-//  UIDevice+.swift
+//  UIDevice+Siberia.swift
 //  SiberianSwift
 //
 //  Created by SergeyPetrachkov on 28/10/2017

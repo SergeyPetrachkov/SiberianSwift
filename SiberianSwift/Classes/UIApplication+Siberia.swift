@@ -1,5 +1,5 @@
 //
-//  UIApplication+.swift
+//  UIApplication+Siberia.swift
 //  SiberianSwift
 //
 //  Created by Sergey Petrachkov on 28/10/2017.
