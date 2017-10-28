@@ -8,23 +8,11 @@
 
 import UIKit
 
-extension String.CharacterView {
-  /// This method makes it easier extract a substring by character index where a character is viewed as a human-readable character (grapheme cluster).
-  internal func substring(start: Int, offsetBy: Int) -> String? {
-    guard let substringStartIndex = self.index(startIndex, offsetBy: start, limitedBy: endIndex) else {
-      return nil
-    }
-    guard let substringEndIndex = self.index(startIndex, offsetBy: start + offsetBy, limitedBy: endIndex) else {
-      return nil
-    }
-    return String(self[substringStartIndex ..< substringEndIndex])
-  }
-}
-
 extension String {
-  
+  /// Get a random string of a given length
+  /// - parameters:
+  ///   - length: desired length
 	static func randomString(length: Int) -> String {
-		
 		let letters : NSString = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
 		let len = UInt32(letters.length)
 		
@@ -38,11 +26,16 @@ extension String {
 		return randomString
 	}
 	
-	
+	/// Get localized version of string by key
+  ///
+  ///
+  ///     let hello = "my_localized_hello".localized
+  ///     // returns "Hello from Siberia!" if you have it in your .strings :)
 	var localized : String {
 		return NSLocalizedString(self, tableName: nil, bundle: Bundle.main, value: "", comment: "")
 	}
   
+  /// Get length of a string
   var length: Int {
     return self.characters.count
   }
@@ -110,4 +103,17 @@ extension String {
 	func index(of string: String) -> String.Index? {
 		return range(of: string)?.lowerBound
 	}
+}
+
+extension String.CharacterView {
+  /// This method makes it easier extract a substring by character index where a character is viewed as a human-readable character (grapheme cluster).
+  internal func substring(start: Int, offsetBy: Int) -> String? {
+    guard let substringStartIndex = self.index(startIndex, offsetBy: start, limitedBy: endIndex) else {
+      return nil
+    }
+    guard let substringEndIndex = self.index(startIndex, offsetBy: start + offsetBy, limitedBy: endIndex) else {
+      return nil
+    }
+    return String(self[substringStartIndex ..< substringEndIndex])
+  }
 }
