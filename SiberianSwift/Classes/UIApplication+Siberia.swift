@@ -9,6 +9,8 @@
 import Foundation
 
 extension UIApplication {
+  /// Detect if debugger is attached.
+  /// In some cases you would want to know that and maybe disable/enable something
   func amIBeingDebugged() -> Bool {
     var info = kinfo_proc()
     var mib : [Int32] = [CTL_KERN, KERN_PROC, KERN_PROC_PID, getpid()]

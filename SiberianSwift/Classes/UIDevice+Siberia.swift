@@ -21,9 +21,9 @@ extension UIDevice {
         /// iPhone 5, 5C, 5S, SE screen
         case iPhone5
         /// iPhone 6, 6S, 7, 8 screen size
-        case iPhone375
+        case iPhone4_7Inch
         /// iPhone 6, 6S, 7, 8 screen size (zoomed mode)
-        case iPhone375Zoomed
+        case iPhone4_7InchZoomed
         /// iPhone 6,7,8 Plus  screen size
         case iPhonePlus
         /// iPhone 6,7,8 Plus screen size (zoomed mode)
@@ -36,42 +36,43 @@ extension UIDevice {
     
     /// Device screen type
     var screenType: ScreenType {
-        guard iPhone else { return ScreenType.unrecognized; }
+        guard iPhone else { return ScreenType.unrecognized }
         
-        let mainScreen = UIScreen.main;
+        let mainScreen = UIScreen.main
         
-        let isIOS8OrLater = SYSTEM_VERSION_GREATER_THAN("8.0");
-        let screenBoundsHeight = mainScreen.bounds.height;
-        let screenNativeScale = mainScreen.nativeScale;
-        let screenScale = mainScreen.scale;
+        let isIOS8OrLater = SYSTEM_VERSION_GREATER_THAN("8.0")
+        let screenBoundsHeight = mainScreen.bounds.height
+        let screenNativeScale = mainScreen.nativeScale
+        let screenScale = mainScreen.scale
         
         if (screenBoundsHeight == 568.0
             && ((isIOS8OrLater && screenNativeScale == screenScale)
                 || !isIOS8OrLater)) {
-            return .iPhone5;
+            return .iPhone5
         } else if (screenBoundsHeight == 667.0
             && isIOS8OrLater
             && screenNativeScale == screenScale) {
-            return .iPhone375;
+            return .iPhone4_7Inch
         } else if (screenBoundsHeight == 568.0
             && isIOS8OrLater
             && screenNativeScale > screenScale) {
-            return .iPhone375Zoomed;
+            return .iPhone4_7InchZoomed
         } else if (screenBoundsHeight == 736.0) {
-            return .iPhonePlus;
+            return .iPhonePlus
         } else if (screenBoundsHeight == 667.0
             && isIOS8OrLater
             && screenNativeScale < screenScale) {
-            return .iPhonePlusZoomed;
+            return .iPhonePlusZoomed
+        } else if screenBoundsHeight == 812.0 {
+          return .iPhoneX
         }
-        /// check fo x
         else {
-            return .iPhone4;
+            return .iPhone4
         }
     }
     
     var isSmallScreen : Bool {
-        return screenType == .iPhone4 || screenType == .iPhone5 || screenType == .iPhonePlusZoomed;
+        return screenType == .iPhone4 || screenType == .iPhone5 || screenType == .iPhonePlusZoomed
     }
     
     func SYSTEM_VERSION_EQUAL_TO(_ version: String) -> Bool {
@@ -113,6 +114,7 @@ extension UIDevice {
             return "iPod Touch 5"
         case "iPod7,1":
             return "iPod Touch 6"
+          
         case "iPhone3,1", "iPhone3,2", "iPhone3,3":
             return "iPhone 4"
         case "iPhone4,1":
@@ -137,6 +139,17 @@ extension UIDevice {
             return "iPhone 7 Plus"
         case "iPhone8,4":
             return "iPhone SE"
+        case "iPhone9,1", "iPhone9,3":
+          return "iPhone 7"
+        case "iPhone9,2", "iPhone9,4":
+          return "iPhone 7Plus"
+        case "iPhone10,1", "iPhone10,4":
+          return "iPhone 8"
+        case "iPhone10,2", "iPhone10,5":
+          return "i Phone8Plus"
+        case "iPhone10,3", "iPhone10,6":
+          return "iPhone X"
+          
         case "iPad2,1", "iPad2,2", "iPad2,3", "iPad2,4":
             return "iPad 2"
         case "iPad3,1", "iPad3,2", "iPad3,3":
@@ -155,12 +168,18 @@ extension UIDevice {
             return "iPad Mini 3"
         case "iPad5,1", "iPad5,2":
             return "iPad Mini 4"
-        case "iPad6,7", "iPad6,8":
-            return "iPad Pro"
+        case "iPad6,7", "iPad6,8", "iPad7,1", "iPad7,2":
+          return "iPad Pro 12.9 Inch"
+        case "iPad7,3", "iPad7,4":
+          return "iPad Pro 10.5 Inch"
+        case "iPad6,3", "iPad6,4":
+          return "iPad Pro 9.7 Inch"
+          
         case "AppleTV5,3":
             return "Apple TV"
         case "i386", "x86_64":
             return "Simulator"
+          
         default:
             return identifier
         }
