@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.summary          = 'SiberianSwift is a bunch of extensions for commonly used classes.'
   s.description      = 'SiberianSwift is a bunch of extensions for commonly used classes. UIView, UIDevice, String, UIApplication, etc'
 
-  s.homepage         = 'https://github.com/SergeyPetrachkov/SiberianSwift.git'
+  s.homepage         = 'https://github.com/SergeyPetrachkov/SiberianSwift'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'sergey petrachkov' => 'petrachkovsergey@gmail.com' }
   s.source           = { :git => 'https://github.com/SergeyPetrachkov/SiberianSwift.git', :tag => s.version.to_s }
