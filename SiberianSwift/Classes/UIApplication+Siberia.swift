@@ -8,7 +8,7 @@
 
 import Foundation
 
-extension UIApplication {
+public extension UIApplication {
   /// Detect if debugger is attached.
   /// In some cases you would want to know that and maybe disable/enable something
   func amIBeingDebugged() -> Bool {

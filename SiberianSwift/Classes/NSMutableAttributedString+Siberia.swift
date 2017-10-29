@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-extension NSMutableAttributedString {
+public extension NSMutableAttributedString {
   /// Create mutable attributed string with specified parameters
   /// - parameters:
   ///   - string: desired text

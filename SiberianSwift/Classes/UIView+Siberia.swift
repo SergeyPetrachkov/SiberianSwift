@@ -9,10 +9,10 @@
 import Foundation
 import UIKit
 
-extension UIView {
-	/**
-	@brief adds blur effect to any view
-	*/
+public extension UIView {
+  // MARK: - Misc stuff
+  
+  /// Add blur effect to any view
 	func addBlurEffect() {
     let blur = UIVisualEffectView(effect: UIBlurEffect(style: .regular))
     blur.frame = self.bounds
@@ -21,104 +21,63 @@ extension UIView {
     self.sendSubview(toBack: blur)
   }
 	
-	/**
-	@brief It moves view horizontally by given delta
- 
-	@discussion This method accepts a CGFloat value representing the delta
- 
-	@param delta The value one wants to move the view
-	*/
-	func moveHorizontally(by delta: CGFloat){
-		self.frame = CGRect(x: self.frame.origin.x + delta, y: self.frame.origin.y, width: self.frame.width, height: self.frame.height)
+	
+  /// Move a view horizontally by given delta
+	func moveHorizontally(by delta: CGFloat) {
+    self.frame.origin.x += delta
 	}
-	/**
-	@brief It moves view left by given delta
- 
-	@discussion This method accepts a CGFloat value representing the delta
- 
-	@param left The value one wants to move the view
-	*/
-	func moveLeft(by left : CGFloat){
+	
+  /// Move a view to the left by given delta
+	func moveLeft(by left : CGFloat) {
     self.moveHorizontally(by: -left)
 	}
-	/**
-	@brief It moves view right by given delta
- 
-	@discussion This method accepts a CGFloat value representing the delta
- 
-	@param right The value one wants to move the view
-	*/
-	func moveRight(by delta: CGFloat){
+	
+  /// Move a view to the right by given delta
+	func moveRight(by delta: CGFloat) {
     self.moveHorizontally(by: delta)
 	}
-	/**
-	@brief It moves view to vertically by given delta
- 
-	@discussion This method accepts a CGFloat value representing the delta
- 
-	@param delta The value one wants to move the view
-	*/
-	func moveVertically(by delta : CGFloat){
-		self.frame = CGRect(x: self.frame.origin.x, y: self.frame.origin.y + delta, width: self.frame.width, height: self.frame.height)
+	
+  /// Move a view to vertically by given delta
+	func moveVertically(by delta : CGFloat) {
+    self.frame.origin.y += delta
 	}
-	/**
-	@brief It moves view up by given delta
- 
-	@discussion This method accepts a CGFloat value representing the delta
- 
-	@param delta The value one wants to move the view
-	*/
-	func moveUp(by delta : CGFloat){
+	
+  /// Move a view up by given delta
+	func moveUp(by delta : CGFloat) {
     self.moveVertically(by: -delta)
 	}
-	/**
-	@brief It moves view down by given delta
- 
-	@discussion This method accepts a CGFloat value representing the delta
- 
-	@param delta The value one wants to move the view
-	*/
-	func moveDown(by delta : CGFloat){
+	
+  /// Move a view down by given delta
+	func moveDown(by delta : CGFloat) {
     self.moveVertically(by: delta)
 	}
 	
-	/**
-	@brief It sets top (origin.y) of the vuew by given value
- 
-	@discussion This method accepts a CGFloat value representing the delta
- 
-	@param top The value one wants view to origin from vertically
-	*/
-	func setTop (_ top : CGFloat){
+  /// Set top (origin.y) of the view to the given value
+	func set(top : CGFloat) {
 		self.frame = CGRect(x: self.frame.origin.x, y: top, width: self.frame.width, height: self.frame.height)
 	}
-	/**
-	@brief It places view below another
- 
-	@discussion This method accepts a CGFloat value representing the delta
- 
-	@param delta anotherView.bottom + delta
-	*/
-	func placeDownAfter(_ view : UIView, delta : CGFloat){
-		self.setTop(view.frame.maxY + delta)
-	}
-	/**
-	@brief It places view to the rigt of another view
- 
-	@discussion This method accepts a CGFloat value representing the delta
- 
-	@param delta anotherView.frame.right + delta
-	*/
-	func placeRightAfter(_ view : UIView, delta : CGFloat){
-    self.moveRight(by: view.frame.maxX + delta)
+	
+  /// Place one view below another
+	func placeDown(after view: UIView, delta: CGFloat) {
+    self.set(top: view.frame.maxY + delta)
 	}
 	
-	func setWidth(_ width: CGFloat){
-		self.frame = CGRect(x: self.frame.origin.x, y: self.frame.origin.y, width: width, height: self.frame.height)
+  /// Place view to the rigt of another view
+	func placeRight(after view: UIView, delta: CGFloat) {
+    self.moveRight(by:view.frame.maxX + delta)
 	}
-	func setHeight(_ height: CGFloat){
-		self.frame = CGRect(x: self.frame.origin.x, y: self.frame.origin.y, width: self.frame.width, height: height)
+	/// Change width of the view
+	func set(width: CGFloat) {
+    self.frame.size.width = width
 	}
+  
+  /// Change height of the view
+	func set(height: CGFloat) {
+    self.frame.size.height = height
+	}
+  
+  // MARK: - IBInspectable
+  
 	/// The color of the layer’s border. Animatable.
 	@IBInspectable var borderColor : UIColor? {
 		get {

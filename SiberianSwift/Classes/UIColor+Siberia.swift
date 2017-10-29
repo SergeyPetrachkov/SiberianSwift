@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension UIColor {
+public extension UIColor {
   /// Create UIColor object from int code with desired alpha level.
 	convenience init(rgbaColorCode: Int) {
 		let r = ((CGFloat)((rgbaColorCode & 0xff0000) >> 24)) / 255.0;

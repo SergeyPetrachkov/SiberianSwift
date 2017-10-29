@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension String {
+public extension String {
   /// Get a random string of a given length
   /// - parameters:
   ///   - length: desired length
@@ -105,7 +105,7 @@ extension String {
 	}
 }
 
-extension String.CharacterView {
+public extension String.CharacterView {
   /// This method makes it easier extract a substring by character index where a character is viewed as a human-readable character (grapheme cluster).
   internal func substring(start: Int, offsetBy: Int) -> String? {
     guard let substringStartIndex = self.index(startIndex, offsetBy: start, limitedBy: endIndex) else {

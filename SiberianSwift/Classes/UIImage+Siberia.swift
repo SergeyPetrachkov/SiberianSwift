@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension UIImage {
+public extension UIImage {
   /// Creates image of the specified size filled with the specified color.
   static func image(with color: UIColor, size: CGSize, scale: CGFloat = 1.0) -> UIImage? {
     let context = CGContext(data: nil,

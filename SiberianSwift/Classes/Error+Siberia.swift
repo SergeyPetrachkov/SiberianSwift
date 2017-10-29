@@ -8,6 +8,6 @@
 
 import Foundation
 
-extension Error {
+public extension Error {
   var code: Int { return (self as NSError).code }
 }

@@ -8,7 +8,7 @@
 
 import Foundation
 
-extension FileManager {
+public extension FileManager {
 	func listFiles(path: String) -> [URL] {
 		let baseUrl: URL = URL(fileURLWithPath: path)
 		var urls = [URL]()
