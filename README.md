@@ -7,7 +7,7 @@ Swift extensions from Siberia with love!
 
 ## Requirements
 
-Swift 4.0, iOS version >= 10.0
+Swift 4.0, iOS version >= 9.0
 
 ## Installation
 
