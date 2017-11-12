@@ -14,11 +14,19 @@ public extension UIView {
   
   /// Add blur effect to any view
 	func addBlurEffect() {
-    let blur = UIVisualEffectView(effect: UIBlurEffect(style: .regular))
-    blur.frame = self.bounds
-    blur.isUserInteractionEnabled = false
-    self.insertSubview(blur, at: 0)
-    self.sendSubview(toBack: blur)
+    var blur: UIVisualEffectView?
+    if #available(iOS 10.0, *) {
+      blur = UIVisualEffectView(effect: UIBlurEffect(style: .regular))
+    } else {
+      blur = UIVisualEffectView(effect: UIBlurEffect(style: .light))
+    }
+    guard let blurView = blur else {
+      return
+    }
+    blurView.frame = self.bounds
+    blurView.isUserInteractionEnabled = false
+    self.insertSubview(blurView, at: 0)
+    self.sendSubview(toBack: blurView)
   }
 	
 	
