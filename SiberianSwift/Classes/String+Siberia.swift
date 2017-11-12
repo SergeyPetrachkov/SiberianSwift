@@ -37,7 +37,7 @@ public extension String {
   
   /// Get length of a string
   var length: Int {
-    return self.characters.count
+    return self.count
   }
 
 	/// Returns matches for a given regular expression
@@ -66,7 +66,7 @@ public extension String {
         return results
     }
     
-    let matches = regex.matches(in: self, options: [], range: NSRange(location:0, length: self.characters.count))
+    let matches = regex.matches(in: self, options: [], range: NSRange(location:0, length: self.count))
     
     guard let match = matches.first else { return results }
     
@@ -103,17 +103,4 @@ public extension String {
 	func index(of string: String) -> String.Index? {
 		return range(of: string)?.lowerBound
 	}
-}
-
-public extension String.CharacterView {
-  /// This method makes it easier extract a substring by character index where a character is viewed as a human-readable character (grapheme cluster).
-  internal func substring(start: Int, offsetBy: Int) -> String? {
-    guard let substringStartIndex = self.index(startIndex, offsetBy: start, limitedBy: endIndex) else {
-      return nil
-    }
-    guard let substringEndIndex = self.index(startIndex, offsetBy: start + offsetBy, limitedBy: endIndex) else {
-      return nil
-    }
-    return String(self[substringStartIndex ..< substringEndIndex])
-  }
 }
