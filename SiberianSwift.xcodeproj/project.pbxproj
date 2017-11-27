@@ -20,6 +20,7 @@
 		391B73CB1FA4F7410088676F /* Date+Siberia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391B73C41FA4F7410088676F /* Date+Siberia.swift */; };
 		396D2B1A1FA5BBFE00594BEC /* DeviceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396D2B191FA5BBFE00594BEC /* DeviceModel.swift */; };
 		39AEF4BE1FCC46A4001FAA42 /* Copyable+Siberia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AEF4BD1FCC46A4001FAA42 /* Copyable+Siberia.swift */; };
+		39AEF4C01FCC4730001FAA42 /* UINavigationController+Siberia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AEF4BF1FCC4730001FAA42 /* UINavigationController+Siberia.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		391B73C41FA4F7410088676F /* Date+Siberia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Siberia.swift"; sourceTree = "<group>"; };
 		396D2B191FA5BBFE00594BEC /* DeviceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceModel.swift; sourceTree = "<group>"; };
 		39AEF4BD1FCC46A4001FAA42 /* Copyable+Siberia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Copyable+Siberia.swift"; sourceTree = "<group>"; };
+		39AEF4BF1FCC4730001FAA42 /* UINavigationController+Siberia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Siberia.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 				3903E41D1FA4EB0A00C2DB2C /* UIImage+Siberia.swift */,
 				3903E4251FA4EB0A00C2DB2C /* UIView+Siberia.swift */,
 				39AEF4BD1FCC46A4001FAA42 /* Copyable+Siberia.swift */,
+				39AEF4BF1FCC4730001FAA42 /* UINavigationController+Siberia.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -190,6 +193,7 @@
 				3903E4351FA4EB0B00C2DB2C /* UIDevice+Siberia.swift in Sources */,
 				391B73CB1FA4F7410088676F /* Date+Siberia.swift in Sources */,
 				3903E4341FA4EB0B00C2DB2C /* String+Siberia.swift in Sources */,
+				39AEF4C01FCC4730001FAA42 /* UINavigationController+Siberia.swift in Sources */,
 				3903E4421FA4EB0B00C2DB2C /* FileManager+Siberia.swift in Sources */,
 				391B73CA1FA4F7410088676F /* Error+Siberia.swift in Sources */,
 				3903E4321FA4EB0B00C2DB2C /* UIApplication+Siberia.swift in Sources */,
