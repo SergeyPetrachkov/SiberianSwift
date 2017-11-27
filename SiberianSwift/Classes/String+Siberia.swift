@@ -103,4 +103,20 @@ public extension String {
 	func index(of string: String) -> String.Index? {
 		return range(of: string)?.lowerBound
 	}
+  
+  /**
+   Truncates the string to the specified length number of characters and appends an optional trailing string if longer.
+   
+   - Parameter length: A `String`.
+   - Parameter trailing: A `String` that will be appended after the truncation.
+   
+   - Returns: A `String` object.
+   */
+  func truncate(length: Int, truncationToken: String = "") -> String {
+    if self.count > length {
+      return String(self.prefix(length)) + truncationToken
+    } else {
+      return self
+    }
+  }
 }
