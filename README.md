@@ -25,9 +25,8 @@ pod "SiberianSwift"
 
 ## Contributing
 
-* Create something awesome, make the code better, add some functionality,
-  whatever (this is the hardest part).
 * [Fork it](http://help.github.com/forking/)
+* Create something awesome, make the code better, add some functionality, fix some bugs (if any).
 * Create new branch to make your changes
 * Commit all your changes to your branch
 * Submit a [pull request](http://help.github.com/pull-requests/)
