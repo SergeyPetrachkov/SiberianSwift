@@ -9,7 +9,7 @@
 import UIKit
 
 extension UIViewController {
-  func showToast(with message: String, width: CGFloat = 300, duration: Double = 4.0, delay: Double = 0.1) {
+  open func showToast(with message: String, width: CGFloat = 300, duration: Double = 4.0, delay: Double = 0.1) {
     let toastLabel = UILabel(frame: CGRect(x: (self.view.frame.size.width - width) / 2,
                                            y: self.view.frame.size.height / 2,
                                            width: width,
@@ -36,5 +36,15 @@ extension UIViewController {
     }, completion: { _ in
       toastLabel.removeFromSuperview()
     })
+  }
+  
+  public func hideKeyboardWhenTappedAround() {
+    let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self,
+                                                             action: #selector(UIViewController.dismissKeyboard))
+    tap.cancelsTouchesInView = false
+    view.addGestureRecognizer(tap)
+  }
+  @objc func dismissKeyboard() {
+    view.endEditing(true)
   }
 }
