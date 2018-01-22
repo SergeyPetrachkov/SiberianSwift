@@ -18,6 +18,19 @@ it, simply add the following line to your Podfile:
 pod "SiberianSwift"
 ```
 
+## Todo
+
+* Document all the methods
+* Provide examples
+
+## Contributing
+
+* [Fork it](http://help.github.com/forking/)
+* Create something awesome, make the code better, add some functionality, fix some bugs (if any).
+* Create new branch to make your changes
+* Commit all your changes to your branch
+* Submit a [pull request](http://help.github.com/pull-requests/)
+
 ## Author
 
 Sergey Petrachkov, petrachkovsergey@gmail.com
