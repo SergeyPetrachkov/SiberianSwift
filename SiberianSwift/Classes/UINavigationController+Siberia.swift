@@ -22,4 +22,17 @@ public extension UINavigationController {
     self.navigationBar.isTranslucent = true
     self.navigationBar.tintColor = UIColor.black
   }
+  public func applyNavigationBarTheme(backgroundColor color: UIColor, shadowImage: UIImage? = nil, tintColor: UIColor = .white) {
+    let backgroundImage = UIImage(color: color)
+    self.navigationBar.setBackgroundImage(backgroundImage, for: .default)
+    self.navigationBar.shadowImage = shadowImage
+    self.navigationBar.tintColor = tintColor
+  }
+  public func pushViewController(_ viewController: UIViewController, animated: Bool, backText: String?) {
+    self.topViewController?.navigationItem.backBarButtonItem = UIBarButtonItem(title: backText,
+                                                                               style: .plain,
+                                                                               target: nil,
+                                                                               action: nil)
+    self.pushViewController(viewController, animated: animated)
+  }
 }
