@@ -9,6 +9,23 @@
 import UIKit
 
 public extension String {
+  /// From string 'Sergey Petrachkov' it will return 'SP'
+  public var initials: String {
+    var finalString = String()
+    var words = components(separatedBy: .whitespacesAndNewlines)
+    
+    if let firstCharacter = words.first?.first {
+      finalString.append(String(firstCharacter))
+      words.removeFirst()
+    }
+    
+    if let lastCharacter = words.last?.first {
+      finalString.append(String(lastCharacter))
+    }
+    
+    return finalString.uppercased()
+  }
+  
   /// Get a random string of a given length
   /// - parameters:
   ///   - length: desired length

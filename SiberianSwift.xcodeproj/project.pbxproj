@@ -24,6 +24,7 @@
 		3975AF602015855A003A1B62 /* Collections+Siberia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3975AF5F2015855A003A1B62 /* Collections+Siberia.swift */; };
 		39AEF4BE1FCC46A4001FAA42 /* Copyable+Siberia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AEF4BD1FCC46A4001FAA42 /* Copyable+Siberia.swift */; };
 		39AEF4C01FCC4730001FAA42 /* UINavigationController+Siberia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AEF4BF1FCC4730001FAA42 /* UINavigationController+Siberia.swift */; };
+		39DB88D9204932BA00E34CED /* UIImageView+Siberia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DB88D8204932BA00E34CED /* UIImageView+Siberia.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		3975AF5F2015855A003A1B62 /* Collections+Siberia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collections+Siberia.swift"; sourceTree = "<group>"; };
 		39AEF4BD1FCC46A4001FAA42 /* Copyable+Siberia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Copyable+Siberia.swift"; sourceTree = "<group>"; };
 		39AEF4BF1FCC4730001FAA42 /* UINavigationController+Siberia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Siberia.swift"; sourceTree = "<group>"; };
+		39DB88D8204932BA00E34CED /* UIImageView+Siberia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Siberia.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				3975AF5B201583ED003A1B62 /* UIViewController+Siberia.swift */,
 				3975AF5D201584C2003A1B62 /* Optional+Siberia.swift */,
 				3975AF5F2015855A003A1B62 /* Collections+Siberia.swift */,
+				39DB88D8204932BA00E34CED /* UIImageView+Siberia.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 				3975AF602015855A003A1B62 /* Collections+Siberia.swift in Sources */,
 				39AEF4BE1FCC46A4001FAA42 /* Copyable+Siberia.swift in Sources */,
 				3903E4311FA4EB0B00C2DB2C /* UIImage+Siberia.swift in Sources */,
+				39DB88D9204932BA00E34CED /* UIImageView+Siberia.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
