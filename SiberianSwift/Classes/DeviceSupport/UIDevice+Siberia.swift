@@ -149,10 +149,6 @@ public extension UIDevice {
       return .iPhone7Plus
     case "iPhone8,4":
       return .iPhoneSE
-    case "iPhone9,1", "iPhone9,3":
-      return .iPhone7
-    case "iPhone9,2", "iPhone9,4":
-      return .iPhone7Plus
     case "iPhone10,1", "iPhone10,4":
       return .iPhone8
     case "iPhone10,2", "iPhone10,5":
