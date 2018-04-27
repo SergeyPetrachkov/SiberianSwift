@@ -18,6 +18,7 @@
 		391B73C51FA4F7410088676F /* NSMutableAttributedString+Siberia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391B73BE1FA4F7400088676F /* NSMutableAttributedString+Siberia.swift */; };
 		391B73CA1FA4F7410088676F /* Error+Siberia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391B73C31FA4F7410088676F /* Error+Siberia.swift */; };
 		391B73CB1FA4F7410088676F /* Date+Siberia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391B73C41FA4F7410088676F /* Date+Siberia.swift */; };
+		3920383A209304C200DE2EBD /* UIView+Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39203839209304C200DE2EBD /* UIView+Gradient.swift */; };
 		396D2B1A1FA5BBFE00594BEC /* DeviceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396D2B191FA5BBFE00594BEC /* DeviceModel.swift */; };
 		3975AF5C201583ED003A1B62 /* UIViewController+Siberia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3975AF5B201583ED003A1B62 /* UIViewController+Siberia.swift */; };
 		3975AF5E201584C2003A1B62 /* Optional+Siberia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3975AF5D201584C2003A1B62 /* Optional+Siberia.swift */; };
@@ -41,6 +42,7 @@
 		391B73BE1FA4F7400088676F /* NSMutableAttributedString+Siberia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSMutableAttributedString+Siberia.swift"; sourceTree = "<group>"; };
 		391B73C31FA4F7410088676F /* Error+Siberia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Error+Siberia.swift"; sourceTree = "<group>"; };
 		391B73C41FA4F7410088676F /* Date+Siberia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Siberia.swift"; sourceTree = "<group>"; };
+		39203839209304C200DE2EBD /* UIView+Gradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Gradient.swift"; sourceTree = "<group>"; };
 		396D2B191FA5BBFE00594BEC /* DeviceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceModel.swift; sourceTree = "<group>"; };
 		3975AF5B201583ED003A1B62 /* UIViewController+Siberia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Siberia.swift"; sourceTree = "<group>"; };
 		3975AF5D201584C2003A1B62 /* Optional+Siberia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Optional+Siberia.swift"; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				3975AF5D201584C2003A1B62 /* Optional+Siberia.swift */,
 				3975AF5F2015855A003A1B62 /* Collections+Siberia.swift */,
 				39DB88D8204932BA00E34CED /* UIImageView+Siberia.swift */,
+				39203839209304C200DE2EBD /* UIView+Gradient.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 				391B73CA1FA4F7410088676F /* Error+Siberia.swift in Sources */,
 				3975AF5E201584C2003A1B62 /* Optional+Siberia.swift in Sources */,
 				3903E4321FA4EB0B00C2DB2C /* UIApplication+Siberia.swift in Sources */,
+				3920383A209304C200DE2EBD /* UIView+Gradient.swift in Sources */,
 				396D2B1A1FA5BBFE00594BEC /* DeviceModel.swift in Sources */,
 				3975AF5C201583ED003A1B62 /* UIViewController+Siberia.swift in Sources */,
 				3903E4391FA4EB0B00C2DB2C /* UIView+Siberia.swift in Sources */,
