@@ -2,6 +2,7 @@
 [![Version](https://img.shields.io/cocoapods/v/SiberianSwift.svg?style=flat)](http://cocoapods.org/pods/SiberianSwift)
 [![License](https://img.shields.io/cocoapods/l/SiberianSwift.svg?style=flat)](http://cocoapods.org/pods/SiberianSwift)
 [![Platform](https://img.shields.io/cocoapods/p/SiberianSwift.svg?style=flat)](http://cocoapods.org/pods/SiberianSwift)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/SergeyPetrachkov/SiberianSwift)
 
 Swift extensions from Siberia with love!
 
