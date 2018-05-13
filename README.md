@@ -19,6 +19,12 @@ it, simply add the following line to your Podfile:
 pod "SiberianSwift"
 ```
 
+To install SiberianSwift you can also use Carthage. Just add the following to your Cartfile:
+
+```ruby
+github "SergeyPetrachkov/SiberianSwift"
+```
+
 ## Todo
 
 * Document all the methods
