@@ -53,6 +53,7 @@ public extension String {
 	}
   
   /// Get length of a string
+  @available(*, deprecated)
   var length: Int {
     return self.count
   }
@@ -149,5 +150,12 @@ public extension String {
     let boundingBox = self.boundingRect(with: constraintRect, options: .usesLineFragmentOrigin, attributes: [.font: font], context: nil)
     
     return ceil(boundingBox.width)
+  }
+  
+  static public func bulletList(from strings: [String]) -> String {
+    return strings.map({ $0.bulleted() }).joined(separator: "\n\r")
+  }
+  public func bulleted() -> String {
+    return "\u{2022} " + self
   }
 }
