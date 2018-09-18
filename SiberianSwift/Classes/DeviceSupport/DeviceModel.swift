@@ -25,6 +25,9 @@ public enum DeviceModel: String {
   case iPhone8
   case iPhone8Plus
   case iPhoneX
+  case iPhoneXS
+  case iPhoneXSMax
+  case iPhoneXR
   
   // MARK: - iPads
   case iPad1

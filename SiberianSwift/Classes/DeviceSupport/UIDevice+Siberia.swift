@@ -36,8 +36,10 @@ public extension UIDevice {
     case iPhonePlus
     /// iPhone 6,7,8 Plus screen size (zoomed mode)
     case iPhonePlusZoomed
-    /// iPhone X
-    case iPhoneX
+    /// iPhone X XS
+    case iPhone5_8
+    case iPhone6_5Inch
+    case iPhone6_1Inch
     /// iPadMini
     case iPadMini
     /// iPad9.7 inch
@@ -66,7 +68,10 @@ public extension UIDevice {
     case 736:
       return .iPhonePlus
     case 812:
-      return .iPhoneX
+      return .iPhone5_8
+    case 896:
+      return UIScreen.main.scale == 3.0 ? .iPhone6_5Inch : .iPhone6_1Inch
+      
     case 1024:
       switch modelName {
       case .iPadMini,.iPadMini2,.iPadMini3,.iPadMini4:
@@ -80,6 +85,7 @@ public extension UIDevice {
       return .iPad10_5
     case 1366:
       return .iPad12_9
+    
     default:
       return .unrecognized
     }
@@ -155,7 +161,13 @@ public extension UIDevice {
       return .iPhone8Plus
     case "iPhone10,3", "iPhone10,6":
       return .iPhoneX
-      
+    case "iPhone11,2":
+      return .iPhoneXS
+    case "iPhone11,4", "iPhone11,6":
+      return .iPhoneXSMax
+    case "iPhone11,8":
+      return .iPhoneXR
+
     case "iPad1,1":
       return .iPad1
     case "iPad2,1", "iPad2,2", "iPad2,3", "iPad2,4":
