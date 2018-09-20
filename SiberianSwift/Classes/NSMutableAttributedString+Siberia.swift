@@ -40,19 +40,19 @@ public extension NSMutableAttributedString {
 		parStyle.lineBreakMode = lineBreakMode
 		parStyle.lineSpacing = lineSpacing
 
-		var attributes: [NSAttributedStringKey : Any] = [
-      NSAttributedStringKey.baselineOffset: NSNumber(value: 0 as Int32),
-      NSAttributedStringKey.paragraphStyle: parStyle
+    var attributes: [NSAttributedString.Key : Any] = [
+      NSAttributedString.Key.baselineOffset: NSNumber(value: 0 as Int32),
+      NSAttributedString.Key.paragraphStyle: parStyle
 		]
 
 		if let font = font {
-      attributes[NSAttributedStringKey.font] = font
+      attributes[NSAttributedString.Key.font] = font
 		}
 		if let foregroundColor = foregroundColor {
-      attributes[NSAttributedStringKey.foregroundColor] = foregroundColor
+      attributes[NSAttributedString.Key.foregroundColor] = foregroundColor
 		}
     if let backgroundColor = backgroundColor {
-      attributes[NSAttributedStringKey.backgroundColor] = backgroundColor
+      attributes[NSAttributedString.Key.backgroundColor] = backgroundColor
     }
 		self.init(string: string, attributes: attributes)
 	}

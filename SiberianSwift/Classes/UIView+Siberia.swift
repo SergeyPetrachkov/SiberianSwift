@@ -26,7 +26,7 @@ public extension UIView {
     blurView.frame = self.bounds
     blurView.isUserInteractionEnabled = false
     self.insertSubview(blurView, at: 0)
-    self.sendSubview(toBack: blurView)
+    self.sendSubviewToBack(blurView)
   }
 	
 	
@@ -180,14 +180,14 @@ public extension UIView {
 	//MARK: - Constraints management
 
 	func pinWithConstraint (_ viewToPinTo: UIView,
-		attribute: NSLayoutAttribute,
+                          attribute: NSLayoutConstraint.Attribute,
 		constant: CGFloat = 0.0,
 		multiplier: CGFloat = 1.0,
-		layoutRelation: NSLayoutRelation = NSLayoutRelation.equal,
+    layoutRelation: NSLayoutConstraint.Relation = NSLayoutConstraint.Relation.equal,
 		priority: UILayoutPriority = UILayoutPriority.required) -> NSLayoutConstraint? {
 			
-		var selfAttribute : NSLayoutAttribute
-		selfAttribute = NSLayoutAttribute.notAnAttribute
+    var selfAttribute : NSLayoutConstraint.Attribute
+    selfAttribute = NSLayoutConstraint.Attribute.notAnAttribute
 		
 		if (attribute == .left || attribute == .leftMargin) {
 			selfAttribute = .left
@@ -224,28 +224,28 @@ public extension UIView {
 	func pinWithInsets (_ viewToPinTo: UIView, insets: UIEdgeInsets) -> [NSLayoutConstraint] {
 		var constraints = [NSLayoutConstraint]()
 		let leftConstraint = pinWithConstraint(viewToPinTo,
-			attribute: NSLayoutAttribute.left,
+                                           attribute: NSLayoutConstraint.Attribute.left,
 			constant: insets.left)
 		if (leftConstraint != nil) {
 			constraints.append(leftConstraint!)
 			viewToPinTo.addConstraint(leftConstraint!)
 		}
 		let topConstraint = pinWithConstraint(viewToPinTo,
-			attribute: NSLayoutAttribute.top,
+                                          attribute: NSLayoutConstraint.Attribute.top,
 			constant: insets.top)
 		if (topConstraint != nil) {
 			constraints.append(topConstraint!)
 			viewToPinTo.addConstraint(topConstraint!)
 		}
 		let rightConstraint = pinWithConstraint(viewToPinTo,
-			attribute: NSLayoutAttribute.right,
+                                            attribute: NSLayoutConstraint.Attribute.right,
 			constant: insets.right)
 		if (rightConstraint != nil) {
 			constraints.append(rightConstraint!)
 			viewToPinTo.addConstraint(rightConstraint!)
 		}
 		let bottomConstraint = pinWithConstraint(viewToPinTo,
-			attribute: NSLayoutAttribute.bottom,
+                                             attribute: NSLayoutConstraint.Attribute.bottom,
 			constant: insets.bottom)
 		if (bottomConstraint != nil) {
 			constraints.append(bottomConstraint!)
@@ -260,10 +260,10 @@ public extension UIView {
 	
 	func addHeightConstraint(_ height: CGFloat) -> NSLayoutConstraint? {
 		return NSLayoutConstraint(item: self,
-			attribute: NSLayoutAttribute.height,
-			relatedBy: NSLayoutRelation.equal,
+                              attribute: NSLayoutConstraint.Attribute.height,
+                              relatedBy: NSLayoutConstraint.Relation.equal,
 			toItem: nil,
-			attribute: NSLayoutAttribute.notAnAttribute,
+      attribute: NSLayoutConstraint.Attribute.notAnAttribute,
 			multiplier: 1.0,
 			constant: height)
 	}
@@ -274,10 +274,10 @@ public extension UIView {
 	
 	func addWidthConstraint(_ width: CGFloat) -> NSLayoutConstraint? {
 		return NSLayoutConstraint(item: self,
-			attribute: NSLayoutAttribute.width,
-			relatedBy: NSLayoutRelation.equal,
+                              attribute: NSLayoutConstraint.Attribute.width,
+                              relatedBy: NSLayoutConstraint.Relation.equal,
 			toItem: nil,
-			attribute: NSLayoutAttribute.notAnAttribute,
+      attribute: NSLayoutConstraint.Attribute.notAnAttribute,
 			multiplier: 1.0,
 			constant: width)
 	}
@@ -317,24 +317,24 @@ public extension UIView {
 		return constraint
 	}
 	
-	func addSpacingConstraint(_ otherView: UIView, spacingToAttribute: NSLayoutAttribute, constant: CGFloat = 0.0, multiplier: CGFloat = 1.0) -> NSLayoutConstraint? {
-		var selfAttribute = NSLayoutAttribute.notAnAttribute
+  func addSpacingConstraint(_ otherView: UIView, spacingToAttribute: NSLayoutConstraint.Attribute, constant: CGFloat = 0.0, multiplier: CGFloat = 1.0) -> NSLayoutConstraint? {
+    var selfAttribute = NSLayoutConstraint.Attribute.notAnAttribute
 		
-		if (spacingToAttribute == NSLayoutAttribute.left) {
-			selfAttribute = NSLayoutAttribute.right
-		} else if (spacingToAttribute == NSLayoutAttribute.top) {
-			selfAttribute = NSLayoutAttribute.bottom
-		} else if (spacingToAttribute == NSLayoutAttribute.right) {
-			selfAttribute = NSLayoutAttribute.left
-		} else if (spacingToAttribute == NSLayoutAttribute.bottom) {
-			selfAttribute = NSLayoutAttribute.top
+    if (spacingToAttribute == NSLayoutConstraint.Attribute.left) {
+      selfAttribute = NSLayoutConstraint.Attribute.right
+    } else if (spacingToAttribute == NSLayoutConstraint.Attribute.top) {
+      selfAttribute = NSLayoutConstraint.Attribute.bottom
+    } else if (spacingToAttribute == NSLayoutConstraint.Attribute.right) {
+      selfAttribute = NSLayoutConstraint.Attribute.left
+    } else if (spacingToAttribute == NSLayoutConstraint.Attribute.bottom) {
+      selfAttribute = NSLayoutConstraint.Attribute.top
 		} else {
 			return nil
 		}
 		
 		let constraint = NSLayoutConstraint(item: otherView,
 			attribute: spacingToAttribute,
-			relatedBy: NSLayoutRelation.equal,
+      relatedBy: NSLayoutConstraint.Relation.equal,
 			toItem: self,
 			attribute: selfAttribute,
 			multiplier: multiplier,

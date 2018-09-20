@@ -19,7 +19,7 @@ public extension UIImageView {
   public func setImage(string: String?,
                      color: UIColor? = nil,
                      circular: Bool = false,
-                     textAttributes: [NSAttributedStringKey: Any]? = nil) {
+                     textAttributes: [NSAttributedString.Key: Any]? = nil) {
     
     let image = imageSnap(text: string != nil ? string?.initials : "",
                           color: color ?? .random,
@@ -34,7 +34,7 @@ public extension UIImageView {
   private func imageSnap(text: String?,
                          color: UIColor,
                          circular: Bool,
-                         textAttributes: [NSAttributedStringKey: Any]?) -> UIImage? {
+                         textAttributes: [NSAttributedString.Key: Any]?) -> UIImage? {
     
     let scale = Float(UIScreen.main.scale)
     var size = bounds.size
@@ -57,8 +57,8 @@ public extension UIImageView {
     
     // Text
     if let text = text {
-      let attributes = textAttributes ?? [NSAttributedStringKey.foregroundColor: UIColor.white,
-                                          NSAttributedStringKey.font: UIFont.systemFont(ofSize: 15.0)]
+      let attributes = textAttributes ?? [NSAttributedString.Key.foregroundColor: UIColor.white,
+                                          NSAttributedString.Key.font: UIFont.systemFont(ofSize: 15.0)]
       
       let textSize = text.size(withAttributes: attributes)
       let bounds = self.bounds
