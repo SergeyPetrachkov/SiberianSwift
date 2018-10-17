@@ -1,7 +1,7 @@
 # SiberianSwift
 
 <p align="center">
-  <img src="https://i.imgur.com/Bs9id4r.png" width="100%">
+  <img src="https://i.imgur.com/BfdvGYS.png" width="100%">
 </p>
 
 
