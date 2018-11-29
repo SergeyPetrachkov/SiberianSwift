@@ -1,0 +1,1230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>UIView Extension Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Extension/UIView" class="dashAnchor"></a>
+    <a title="UIView Extension Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">SiberianSwift Docs</a> (36% documented)</p>
+        <p class="header-right"><a href="https://github.com/SergeyPetrachkov/SiberianSwift"><img src="../img/gh.png"/>View on GitHub</a></p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">SiberianSwift Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        UIView Extension Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/DeviceModel.html">DeviceModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/GradientOrientation.html">GradientOrientation</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/Array.html">Array</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Date.html">Date</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Error.html">Error</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/FileManager.html">FileManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/MutableCollection.html">MutableCollection</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/NSMutableAttributedString.html">NSMutableAttributedString</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Optional.html">Optional</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Sequence.html">Sequence</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/String.html">String</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIApplication.html">UIApplication</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIColor.html">UIColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIDevice.html">UIDevice</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIDevice/ScreenType.html">– ScreenType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIImage.html">UIImage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIImageView.html">UIImageView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UINavigationController.html">UINavigationController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIView.html">UIView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIViewController.html">UIViewController</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/Copyable.html">Copyable</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Typealiases.html">Type Aliases</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:13SiberianSwift14GradientPointsa">GradientPoints</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>UIView</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">class</span> <span class="kt">UIView</span> <span class="p">:</span> <span class="kt">UIResponder</span><span class="p">,</span> <span class="kt">NSCoding</span><span class="p">,</span> <span class="kt">UIAppearance</span><span class="p">,</span> <span class="kt">UIAppearanceContainer</span><span class="p">,</span> <span class="kt">UIDynamicItem</span><span class="p">,</span> <span class="kt">UITraitEnvironment</span><span class="p">,</span> <span class="kt">UICoordinateSpace</span><span class="p">,</span> <span class="kt">UIFocusItem</span><span class="p">,</span> <span class="kt">UIFocusItemContainer</span><span class="p">,</span> <span class="kt">CALayerDelegate</span></code></pre>
+
+                </div>
+              </div>
+            
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC13SiberianSwiftE13applyGradient6colorsySaySo7UIColorCG_tF"></a>
+                    <a name="//apple_ref/swift/Method/applyGradient(colors:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC13SiberianSwiftE13applyGradient6colorsySaySo7UIColorCG_tF">applyGradient(colors:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">applyGradient</span><span class="p">(</span><span class="nv">colors</span><span class="p">:</span> <span class="p">[</span><span class="kt">UIColor</span><span class="p">])</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC13SiberianSwiftE13applyGradient6colors9locationsySaySo7UIColorCG_SaySo8NSNumberCGSgtF"></a>
+                    <a name="//apple_ref/swift/Method/applyGradient(colors:locations:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC13SiberianSwiftE13applyGradient6colors9locationsySaySo7UIColorCG_SaySo8NSNumberCGSgtF">applyGradient(colors:locations:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">applyGradient</span><span class="p">(</span><span class="nv">colors</span><span class="p">:</span> <span class="p">[</span><span class="kt">UIColor</span><span class="p">],</span> <span class="nv">locations</span><span class="p">:</span> <span class="p">[</span><span class="kt">NSNumber</span><span class="p">]?)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC13SiberianSwiftE13applyGradient6colors19gradientOrientationySaySo7UIColorCG_AC0eH0OtF"></a>
+                    <a name="//apple_ref/swift/Method/applyGradient(colors:gradientOrientation:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC13SiberianSwiftE13applyGradient6colors19gradientOrientationySaySo7UIColorCG_AC0eH0OtF">applyGradient(colors:gradientOrientation:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">applyGradient</span><span class="p">(</span><span class="nv">colors</span><span class="p">:</span> <span class="p">[</span><span class="kt">UIColor</span><span class="p">],</span> <span class="nv">gradientOrientation</span><span class="p">:</span> <span class="kt"><a href="../Enums/GradientOrientation.html">GradientOrientation</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Misc%20stuff"></a>
+                <a name="//apple_ref/swift/Section/Misc stuff" class="dashAnchor"></a>
+                <a href="#/Misc%20stuff">
+                  <h3 class="section-name">Misc stuff</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC13SiberianSwiftE13addBlurEffectyyF"></a>
+                    <a name="//apple_ref/swift/Method/addBlurEffect()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC13SiberianSwiftE13addBlurEffectyyF">addBlurEffect()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Add blur effect to any view</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">addBlurEffect</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC13SiberianSwiftE16moveHorizontally2byy12CoreGraphics7CGFloatV_tF"></a>
+                    <a name="//apple_ref/swift/Method/moveHorizontally(by:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC13SiberianSwiftE16moveHorizontally2byy12CoreGraphics7CGFloatV_tF">moveHorizontally(by:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Move a view horizontally by given delta</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">moveHorizontally</span><span class="p">(</span><span class="n">by</span> <span class="nv">delta</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC13SiberianSwiftE8moveLeft2byy12CoreGraphics7CGFloatV_tF"></a>
+                    <a name="//apple_ref/swift/Method/moveLeft(by:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC13SiberianSwiftE8moveLeft2byy12CoreGraphics7CGFloatV_tF">moveLeft(by:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Move a view to the left by given delta</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">moveLeft</span><span class="p">(</span><span class="n">by</span> <span class="nv">left</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC13SiberianSwiftE9moveRight2byy12CoreGraphics7CGFloatV_tF"></a>
+                    <a name="//apple_ref/swift/Method/moveRight(by:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC13SiberianSwiftE9moveRight2byy12CoreGraphics7CGFloatV_tF">moveRight(by:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Move a view to the right by given delta</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">moveRight</span><span class="p">(</span><span class="n">by</span> <span class="nv">delta</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC13SiberianSwiftE14moveVertically2byy12CoreGraphics7CGFloatV_tF"></a>
+                    <a name="//apple_ref/swift/Method/moveVertically(by:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC13SiberianSwiftE14moveVertically2byy12CoreGraphics7CGFloatV_tF">moveVertically(by:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Move a view to vertically by given delta</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">moveVertically</span><span class="p">(</span><span class="n">by</span> <span class="nv">delta</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC13SiberianSwiftE6moveUp2byy12CoreGraphics7CGFloatV_tF"></a>
+                    <a name="//apple_ref/swift/Method/moveUp(by:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC13SiberianSwiftE6moveUp2byy12CoreGraphics7CGFloatV_tF">moveUp(by:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Move a view up by given delta</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">moveUp</span><span class="p">(</span><span class="n">by</span> <span class="nv">delta</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC13SiberianSwiftE8moveDown2byy12CoreGraphics7CGFloatV_tF"></a>
+                    <a name="//apple_ref/swift/Method/moveDown(by:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC13SiberianSwiftE8moveDown2byy12CoreGraphics7CGFloatV_tF">moveDown(by:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Move a view down by given delta</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">moveDown</span><span class="p">(</span><span class="n">by</span> <span class="nv">delta</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC13SiberianSwiftE3set3topy12CoreGraphics7CGFloatV_tF"></a>
+                    <a name="//apple_ref/swift/Method/set(top:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC13SiberianSwiftE3set3topy12CoreGraphics7CGFloatV_tF">set(top:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Set top (origin.y) of the view to the given value</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">set</span><span class="p">(</span><span class="nv">top</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC13SiberianSwiftE9placeDown5after5deltayAB_12CoreGraphics7CGFloatVtF"></a>
+                    <a name="//apple_ref/swift/Method/placeDown(after:delta:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC13SiberianSwiftE9placeDown5after5deltayAB_12CoreGraphics7CGFloatVtF">placeDown(after:delta:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Place one view below another</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">placeDown</span><span class="p">(</span><span class="n">after</span> <span class="nv">view</span><span class="p">:</span> <span class="kt">UIView</span><span class="p">,</span> <span class="nv">delta</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC13SiberianSwiftE10placeRight5after5deltayAB_12CoreGraphics7CGFloatVtF"></a>
+                    <a name="//apple_ref/swift/Method/placeRight(after:delta:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC13SiberianSwiftE10placeRight5after5deltayAB_12CoreGraphics7CGFloatVtF">placeRight(after:delta:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Place view to the rigt of another view</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">placeRight</span><span class="p">(</span><span class="n">after</span> <span class="nv">view</span><span class="p">:</span> <span class="kt">UIView</span><span class="p">,</span> <span class="nv">delta</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC13SiberianSwiftE3set5widthy12CoreGraphics7CGFloatV_tF"></a>
+                    <a name="//apple_ref/swift/Method/set(width:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC13SiberianSwiftE3set5widthy12CoreGraphics7CGFloatV_tF">set(width:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Change width of the view</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">set</span><span class="p">(</span><span class="nv">width</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC13SiberianSwiftE3set6heighty12CoreGraphics7CGFloatV_tF"></a>
+                    <a name="//apple_ref/swift/Method/set(height:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC13SiberianSwiftE3set6heighty12CoreGraphics7CGFloatV_tF">set(height:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Change height of the view</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">set</span><span class="p">(</span><span class="nv">height</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/IBInspectable"></a>
+                <a name="//apple_ref/swift/Section/IBInspectable" class="dashAnchor"></a>
+                <a href="#/IBInspectable">
+                  <h3 class="section-name">IBInspectable</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@SiberianSwift@@objc(cs)UIView(py)borderColor"></a>
+                    <a name="//apple_ref/swift/Property/borderColor" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@SiberianSwift@@objc(cs)UIView(py)borderColor">borderColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The color of the layer’s border. Animatable.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@IBInspectable</span>
+<span class="k">var</span> <span class="nv">borderColor</span><span class="p">:</span> <span class="nf">UIColor</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@SiberianSwift@@objc(cs)UIView(py)borderWidth"></a>
+                    <a name="//apple_ref/swift/Property/borderWidth" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@SiberianSwift@@objc(cs)UIView(py)borderWidth">borderWidth</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The width of the layer’s border. Animatable.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@IBInspectable</span>
+<span class="k">var</span> <span class="nv">borderWidth</span><span class="p">:</span> <span class="nf">CGFloat</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@SiberianSwift@@objc(cs)UIView(py)cornerRadius"></a>
+                    <a name="//apple_ref/swift/Property/cornerRadius" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@SiberianSwift@@objc(cs)UIView(py)cornerRadius">cornerRadius</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The radius to use when drawing rounded corners for the layer’s background. Animatable.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@IBInspectable</span>
+<span class="k">var</span> <span class="nv">cornerRadius</span><span class="p">:</span> <span class="nf">CGFloat</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@SiberianSwift@@objc(cs)UIView(py)masksLayerToBounds"></a>
+                    <a name="//apple_ref/swift/Property/masksLayerToBounds" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@SiberianSwift@@objc(cs)UIView(py)masksLayerToBounds">masksLayerToBounds</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A Boolean indicating whether sublayers are clipped to the layer’s bounds. Animatable.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@IBInspectable</span>
+<span class="k">var</span> <span class="nv">masksLayerToBounds</span><span class="p">:</span> <span class="nf">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@SiberianSwift@@objc(cs)UIView(py)shadowColor"></a>
+                    <a name="//apple_ref/swift/Property/shadowColor" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@SiberianSwift@@objc(cs)UIView(py)shadowColor">shadowColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The color of the layer’s shadow. Animatable.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@IBInspectable</span>
+<span class="k">var</span> <span class="nv">shadowColor</span><span class="p">:</span> <span class="nf">UIColor</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@SiberianSwift@@objc(cs)UIView(py)shadowOffset"></a>
+                    <a name="//apple_ref/swift/Property/shadowOffset" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@SiberianSwift@@objc(cs)UIView(py)shadowOffset">shadowOffset</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The offset (in points) of the layer’s shadow. Animatable.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@IBInspectable</span>
+<span class="k">var</span> <span class="nv">shadowOffset</span><span class="p">:</span> <span class="nf">CGPoint</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@SiberianSwift@@objc(cs)UIView(py)shadowOpacity"></a>
+                    <a name="//apple_ref/swift/Property/shadowOpacity" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@SiberianSwift@@objc(cs)UIView(py)shadowOpacity">shadowOpacity</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The opacity of the layer’s shadow. Animatable.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@IBInspectable</span>
+<span class="k">var</span> <span class="nv">shadowOpacity</span><span class="p">:</span> <span class="nf">Float</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@SiberianSwift@@objc(cs)UIView(py)shadowRadius"></a>
+                    <a name="//apple_ref/swift/Property/shadowRadius" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@SiberianSwift@@objc(cs)UIView(py)shadowRadius">shadowRadius</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The blur radius (in points) used to render the layer’s shadow. Animatable.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@IBInspectable</span>
+<span class="k">var</span> <span class="nv">shadowRadius</span><span class="p">:</span> <span class="nf">CGFloat</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@SiberianSwift@@objc(cs)UIView(py)shouldRasterize"></a>
+                    <a name="//apple_ref/swift/Property/shouldRasterize" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@SiberianSwift@@objc(cs)UIView(py)shouldRasterize">shouldRasterize</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A Boolean that indicates whether the layer is rendered as a bitmap before compositing. Animatable.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@IBInspectable</span>
+<span class="k">var</span> <span class="nv">shouldRasterize</span><span class="p">:</span> <span class="nf">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Constraints%20management"></a>
+                <a name="//apple_ref/swift/Section/Constraints management" class="dashAnchor"></a>
+                <a href="#/Constraints%20management">
+                  <h3 class="section-name">Constraints management</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC13SiberianSwiftE17pinWithConstraint_9attribute8constant10multiplier14layoutRelation8prioritySo08NSLayoutF0CSgAB_So0M9AttributeV12CoreGraphics7CGFloatVAQSo0mK0VSo16UILayoutPriorityatF"></a>
+                    <a name="//apple_ref/swift/Method/pinWithConstraint(_:attribute:constant:multiplier:layoutRelation:priority:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC13SiberianSwiftE17pinWithConstraint_9attribute8constant10multiplier14layoutRelation8prioritySo08NSLayoutF0CSgAB_So0M9AttributeV12CoreGraphics7CGFloatVAQSo0mK0VSo16UILayoutPriorityatF">pinWithConstraint(_:attribute:constant:multiplier:layoutRelation:priority:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">pinWithConstraint</span> <span class="p">(</span><span class="n">_</span> <span class="nv">viewToPinTo</span><span class="p">:</span> <span class="kt">UIView</span><span class="p">,</span>
+                         <span class="nv">attribute</span><span class="p">:</span> <span class="kt">NSLayoutConstraint</span><span class="o">.</span><span class="kt">Attribute</span><span class="p">,</span>
+	<span class="nv">constant</span><span class="p">:</span> <span class="kt">CGFloat</span> <span class="o">=</span> <span class="mf">0.0</span><span class="p">,</span>
+	<span class="nv">multiplier</span><span class="p">:</span> <span class="kt">CGFloat</span> <span class="o">=</span> <span class="mf">1.0</span><span class="p">,</span>
+   <span class="nv">layoutRelation</span><span class="p">:</span> <span class="kt">NSLayoutConstraint</span><span class="o">.</span><span class="kt">Relation</span> <span class="o">=</span> <span class="kt">NSLayoutConstraint</span><span class="o">.</span><span class="kt">Relation</span><span class="o">.</span><span class="n">equal</span><span class="p">,</span>
+	<span class="nv">priority</span><span class="p">:</span> <span class="kt">UILayoutPriority</span> <span class="o">=</span> <span class="kt">UILayoutPriority</span><span class="o">.</span><span class="kd">required</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">NSLayoutConstraint</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC13SiberianSwiftE17pinWithZeroInsetsySaySo18NSLayoutConstraintCGABF"></a>
+                    <a name="//apple_ref/swift/Method/pinWithZeroInsets(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC13SiberianSwiftE17pinWithZeroInsetsySaySo18NSLayoutConstraintCGABF">pinWithZeroInsets(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">pinWithZeroInsets</span><span class="p">(</span><span class="n">_</span> <span class="nv">viewToPinTo</span><span class="p">:</span> <span class="kt">UIView</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="p">[</span><span class="kt">NSLayoutConstraint</span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC13SiberianSwiftE13pinWithInsets_6insetsSaySo18NSLayoutConstraintCGAB_So06UIEdgeF0VtF"></a>
+                    <a name="//apple_ref/swift/Method/pinWithInsets(_:insets:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC13SiberianSwiftE13pinWithInsets_6insetsSaySo18NSLayoutConstraintCGAB_So06UIEdgeF0VtF">pinWithInsets(_:insets:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">pinWithInsets</span><span class="p">(</span><span class="n">_</span> <span class="nv">viewToPinTo</span><span class="p">:</span> <span class="kt">UIView</span><span class="p">,</span> <span class="nv">insets</span><span class="p">:</span> <span class="kt">UIEdgeInsets</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="p">[</span><span class="kt">NSLayoutConstraint</span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC13SiberianSwiftE26addCurrentHeightConstraintSo08NSLayoutG0CSgyF"></a>
+                    <a name="//apple_ref/swift/Method/addCurrentHeightConstraint()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC13SiberianSwiftE26addCurrentHeightConstraintSo08NSLayoutG0CSgyF">addCurrentHeightConstraint()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">addCurrentHeightConstraint</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">NSLayoutConstraint</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC13SiberianSwiftE19addHeightConstraintySo08NSLayoutF0CSg12CoreGraphics7CGFloatVF"></a>
+                    <a name="//apple_ref/swift/Method/addHeightConstraint(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC13SiberianSwiftE19addHeightConstraintySo08NSLayoutF0CSg12CoreGraphics7CGFloatVF">addHeightConstraint(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">addHeightConstraint</span><span class="p">(</span><span class="n">_</span> <span class="nv">height</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">NSLayoutConstraint</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC13SiberianSwiftE25addCurrentWidthConstraintSo08NSLayoutG0CSgyF"></a>
+                    <a name="//apple_ref/swift/Method/addCurrentWidthConstraint()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC13SiberianSwiftE25addCurrentWidthConstraintSo08NSLayoutG0CSgyF">addCurrentWidthConstraint()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">addCurrentWidthConstraint</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">NSLayoutConstraint</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC13SiberianSwiftE18addWidthConstraintySo08NSLayoutF0CSg12CoreGraphics7CGFloatVF"></a>
+                    <a name="//apple_ref/swift/Method/addWidthConstraint(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC13SiberianSwiftE18addWidthConstraintySo08NSLayoutF0CSg12CoreGraphics7CGFloatVF">addWidthConstraint(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">addWidthConstraint</span><span class="p">(</span><span class="n">_</span> <span class="nv">width</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">NSLayoutConstraint</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC13SiberianSwiftE25addCurrentSizeConstraintsSaySo18NSLayoutConstraintCGyF"></a>
+                    <a name="//apple_ref/swift/Method/addCurrentSizeConstraints()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC13SiberianSwiftE25addCurrentSizeConstraintsSaySo18NSLayoutConstraintCGyF">addCurrentSizeConstraints()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">addCurrentSizeConstraints</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="p">[</span><span class="kt">NSLayoutConstraint</span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC13SiberianSwiftE18addSizeConstraintsySaySo18NSLayoutConstraintCGSo6CGSizeVF"></a>
+                    <a name="//apple_ref/swift/Method/addSizeConstraints(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC13SiberianSwiftE18addSizeConstraintsySaySo18NSLayoutConstraintCGSo6CGSizeVF">addSizeConstraints(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">addSizeConstraints</span><span class="p">(</span><span class="n">_</span> <span class="nv">size</span><span class="p">:</span> <span class="kt">CGSize</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="p">[</span><span class="kt">NSLayoutConstraint</span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC13SiberianSwiftE18addSizeConstraints5width6heightSaySo18NSLayoutConstraintCG12CoreGraphics7CGFloatV_ALtF"></a>
+                    <a name="//apple_ref/swift/Method/addSizeConstraints(width:height:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC13SiberianSwiftE18addSizeConstraints5width6heightSaySo18NSLayoutConstraintCG12CoreGraphics7CGFloatV_ALtF">addSizeConstraints(width:height:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">addSizeConstraints</span><span class="p">(</span><span class="nv">width</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">height</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="p">[</span><span class="kt">NSLayoutConstraint</span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC13SiberianSwiftE19addAspectConstraint_1ySo08NSLayoutF0C12CoreGraphics7CGFloatV_AJtF"></a>
+                    <a name="//apple_ref/swift/Method/addAspectConstraint(_:y:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC13SiberianSwiftE19addAspectConstraint_1ySo08NSLayoutF0C12CoreGraphics7CGFloatV_AJtF">addAspectConstraint(_:y:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">addAspectConstraint</span><span class="p">(</span><span class="n">_</span> <span class="nv">x</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">y</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">NSLayoutConstraint</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC13SiberianSwiftE20addSpacingConstraint_18spacingToAttribute8constant10multiplierSo08NSLayoutF0CSgAB_So0lI0V12CoreGraphics7CGFloatVAOtF"></a>
+                    <a name="//apple_ref/swift/Method/addSpacingConstraint(_:spacingToAttribute:constant:multiplier:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC13SiberianSwiftE20addSpacingConstraint_18spacingToAttribute8constant10multiplierSo08NSLayoutF0CSgAB_So0lI0V12CoreGraphics7CGFloatVAOtF">addSpacingConstraint(_:spacingToAttribute:constant:multiplier:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">addSpacingConstraint</span><span class="p">(</span><span class="n">_</span> <span class="nv">otherView</span><span class="p">:</span> <span class="kt">UIView</span><span class="p">,</span> <span class="nv">spacingToAttribute</span><span class="p">:</span> <span class="kt">NSLayoutConstraint</span><span class="o">.</span><span class="kt">Attribute</span><span class="p">,</span> <span class="nv">constant</span><span class="p">:</span> <span class="kt">CGFloat</span> <span class="o">=</span> <span class="mf">0.0</span><span class="p">,</span> <span class="nv">multiplier</span><span class="p">:</span> <span class="kt">CGFloat</span> <span class="o">=</span> <span class="mf">1.0</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">NSLayoutConstraint</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Rotation%20animations"></a>
+                <a name="//apple_ref/swift/Section/Rotation animations" class="dashAnchor"></a>
+                <a href="#/Rotation%20animations">
+                  <h3 class="section-name">Rotation animations</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC13SiberianSwiftE13startRotating8durationySd_tF"></a>
+                    <a name="//apple_ref/swift/Method/startRotating(duration:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC13SiberianSwiftE13startRotating8durationySd_tF">startRotating(duration:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">startRotating</span><span class="p">(</span><span class="nv">duration</span><span class="p">:</span> <span class="kt">Double</span> <span class="o">=</span> <span class="mi">1</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6UIViewC13SiberianSwiftE12stopRotatingyyF"></a>
+                    <a name="//apple_ref/swift/Method/stopRotating()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6UIViewC13SiberianSwiftE12stopRotatingyyF">stopRotating()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">stopRotating</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2018 <a class="link" href="https://github.com/SergeyPetrachkov" target="_blank" rel="external">SergeyPetrachkov</a>. All rights reserved. (Last updated: 2018-11-29)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.4</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

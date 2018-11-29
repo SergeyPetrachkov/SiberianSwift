@@ -1,0 +1,761 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/Array+Siberia.swift",
+      "line": 11,
+      "symbol": "Array.mergeElements(newElements:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/Copyable+Siberia.swift",
+      "line": null,
+      "symbol": "Copyable",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/Copyable+Siberia.swift",
+      "line": 11,
+      "symbol": "Copyable",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/Copyable+Siberia.swift",
+      "line": 12,
+      "symbol": "Copyable.init(other:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/Copyable+Siberia.swift",
+      "line": 16,
+      "symbol": "Copyable.copy()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/Date+Siberia.swift",
+      "line": 12,
+      "symbol": "Date.dayNumberOfWeek()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/Date+Siberia.swift",
+      "line": 16,
+      "symbol": "Date.years(sinceDate:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/Date+Siberia.swift",
+      "line": 20,
+      "symbol": "Date.months(sinceDate:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/Date+Siberia.swift",
+      "line": 24,
+      "symbol": "Date.days(sinceDate:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/Date+Siberia.swift",
+      "line": 28,
+      "symbol": "Date.hours(sinceDate:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/Date+Siberia.swift",
+      "line": 32,
+      "symbol": "Date.minutes(sinceDate:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/Date+Siberia.swift",
+      "line": 36,
+      "symbol": "Date.seconds(sinceDate:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/DeviceSupport/DeviceModel.swift",
+      "line": 11,
+      "symbol": "DeviceModel",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/DeviceSupport/DeviceModel.swift",
+      "line": 13,
+      "symbol": "DeviceModel.iPhone4",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/DeviceSupport/DeviceModel.swift",
+      "line": 14,
+      "symbol": "DeviceModel.iPhone4S",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/DeviceSupport/DeviceModel.swift",
+      "line": 15,
+      "symbol": "DeviceModel.iPhone5",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/DeviceSupport/DeviceModel.swift",
+      "line": 16,
+      "symbol": "DeviceModel.iPhone5C",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/DeviceSupport/DeviceModel.swift",
+      "line": 17,
+      "symbol": "DeviceModel.iPhone5S",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/DeviceSupport/DeviceModel.swift",
+      "line": 18,
+      "symbol": "DeviceModel.iPhone6",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/DeviceSupport/DeviceModel.swift",
+      "line": 19,
+      "symbol": "DeviceModel.iPhone6Plus",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/DeviceSupport/DeviceModel.swift",
+      "line": 20,
+      "symbol": "DeviceModel.iPhone6S",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/DeviceSupport/DeviceModel.swift",
+      "line": 21,
+      "symbol": "DeviceModel.iPhone6SPlus",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/DeviceSupport/DeviceModel.swift",
+      "line": 22,
+      "symbol": "DeviceModel.iPhoneSE",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/DeviceSupport/DeviceModel.swift",
+      "line": 23,
+      "symbol": "DeviceModel.iPhone7",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/DeviceSupport/DeviceModel.swift",
+      "line": 24,
+      "symbol": "DeviceModel.iPhone7Plus",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/DeviceSupport/DeviceModel.swift",
+      "line": 25,
+      "symbol": "DeviceModel.iPhone8",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/DeviceSupport/DeviceModel.swift",
+      "line": 26,
+      "symbol": "DeviceModel.iPhone8Plus",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/DeviceSupport/DeviceModel.swift",
+      "line": 27,
+      "symbol": "DeviceModel.iPhoneX",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/DeviceSupport/DeviceModel.swift",
+      "line": 28,
+      "symbol": "DeviceModel.iPhoneXS",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/DeviceSupport/DeviceModel.swift",
+      "line": 29,
+      "symbol": "DeviceModel.iPhoneXSMax",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/DeviceSupport/DeviceModel.swift",
+      "line": 30,
+      "symbol": "DeviceModel.iPhoneXR",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/DeviceSupport/DeviceModel.swift",
+      "line": 33,
+      "symbol": "DeviceModel.iPad1",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/DeviceSupport/DeviceModel.swift",
+      "line": 34,
+      "symbol": "DeviceModel.iPad2",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/DeviceSupport/DeviceModel.swift",
+      "line": 35,
+      "symbol": "DeviceModel.iPad3",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/DeviceSupport/DeviceModel.swift",
+      "line": 36,
+      "symbol": "DeviceModel.iPad4",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/DeviceSupport/DeviceModel.swift",
+      "line": 37,
+      "symbol": "DeviceModel.iPad5",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/DeviceSupport/DeviceModel.swift",
+      "line": 38,
+      "symbol": "DeviceModel.iPadAir",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/DeviceSupport/DeviceModel.swift",
+      "line": 39,
+      "symbol": "DeviceModel.iPadAir2",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/DeviceSupport/DeviceModel.swift",
+      "line": 40,
+      "symbol": "DeviceModel.iPadMini",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/DeviceSupport/DeviceModel.swift",
+      "line": 41,
+      "symbol": "DeviceModel.iPadMini2",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/DeviceSupport/DeviceModel.swift",
+      "line": 42,
+      "symbol": "DeviceModel.iPadMini3",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/DeviceSupport/DeviceModel.swift",
+      "line": 43,
+      "symbol": "DeviceModel.iPadMini4",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/DeviceSupport/DeviceModel.swift",
+      "line": 44,
+      "symbol": "DeviceModel.iPadPro9_7Inch",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/DeviceSupport/DeviceModel.swift",
+      "line": 45,
+      "symbol": "DeviceModel.iPadPro10_5Inch",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/DeviceSupport/DeviceModel.swift",
+      "line": 46,
+      "symbol": "DeviceModel.iPadPro12_9Inch",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/DeviceSupport/DeviceModel.swift",
+      "line": 49,
+      "symbol": "DeviceModel.iPodTouch1Gen",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/DeviceSupport/DeviceModel.swift",
+      "line": 50,
+      "symbol": "DeviceModel.iPodTouch2Gen",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/DeviceSupport/DeviceModel.swift",
+      "line": 51,
+      "symbol": "DeviceModel.iPodTouch3Gen",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/DeviceSupport/DeviceModel.swift",
+      "line": 52,
+      "symbol": "DeviceModel.iPodTouch4Gen",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/DeviceSupport/DeviceModel.swift",
+      "line": 53,
+      "symbol": "DeviceModel.iPodTouch5Gen",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/DeviceSupport/DeviceModel.swift",
+      "line": 54,
+      "symbol": "DeviceModel.iPodTouch6Gen",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/DeviceSupport/DeviceModel.swift",
+      "line": 57,
+      "symbol": "DeviceModel.AppleTV",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/DeviceSupport/DeviceModel.swift",
+      "line": 59,
+      "symbol": "DeviceModel.simulator",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/DeviceSupport/DeviceModel.swift",
+      "line": 60,
+      "symbol": "DeviceModel.unknown",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/DeviceSupport/UIDevice+Siberia.swift",
+      "line": 26,
+      "symbol": "UIDevice.ScreenType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/DeviceSupport/UIDevice+Siberia.swift",
+      "line": 41,
+      "symbol": "UIDevice.ScreenType.iPhone6_5Inch",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/DeviceSupport/UIDevice+Siberia.swift",
+      "line": 42,
+      "symbol": "UIDevice.ScreenType.iPhone6_1Inch",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/DeviceSupport/UIDevice+Siberia.swift",
+      "line": 94,
+      "symbol": "UIDevice.isSmallScreen",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/DeviceSupport/UIDevice+Siberia.swift",
+      "line": 98,
+      "symbol": "UIDevice.SYSTEM_VERSION_EQUAL_TO(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/DeviceSupport/UIDevice+Siberia.swift",
+      "line": 103,
+      "symbol": "UIDevice.SYSTEM_VERSION_GREATER_THAN(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/DeviceSupport/UIDevice+Siberia.swift",
+      "line": 108,
+      "symbol": "UIDevice.SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/DeviceSupport/UIDevice+Siberia.swift",
+      "line": 113,
+      "symbol": "UIDevice.SYSTEM_VERSION_LESS_THAN(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/DeviceSupport/UIDevice+Siberia.swift",
+      "line": 118,
+      "symbol": "UIDevice.SYSTEM_VERSION_LESS_THAN_OR_EQUAL_TO(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/Error+Siberia.swift",
+      "line": 12,
+      "symbol": "Error.code",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/FileManager+Siberia.swift",
+      "line": 12,
+      "symbol": "FileManager.listFiles(path:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/NSMutableAttributedString+Siberia.swift",
+      "line": 60,
+      "symbol": "NSMutableAttributedString.height(withConstrainedWidth:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/NSMutableAttributedString+Siberia.swift",
+      "line": 66,
+      "symbol": "NSMutableAttributedString.width(withConstrainedHeight:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/Optional+Siberia.swift",
+      "line": 12,
+      "symbol": "Optional.or(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/Optional+Siberia.swift",
+      "line": 15,
+      "symbol": "Optional.or(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/String+Siberia.swift",
+      "line": 77,
+      "symbol": "String.capturedGroups(withRegex:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/String+Siberia.swift",
+      "line": 102,
+      "symbol": "String.regexMatches(pattern:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/String+Siberia.swift",
+      "line": 121,
+      "symbol": "String.index(of:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/String+Siberia.swift",
+      "line": 141,
+      "symbol": "String.height(withConstrainedWidth:font:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/String+Siberia.swift",
+      "line": 148,
+      "symbol": "String.width(withConstraintedHeight:font:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/String+Siberia.swift",
+      "line": 155,
+      "symbol": "String.bulletList(from:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/String+Siberia.swift",
+      "line": 158,
+      "symbol": "String.bulleted()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/UIApplication+Siberia.swift",
+      "line": 23,
+      "symbol": "UIApplication.appVersion",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/UIApplication+Siberia.swift",
+      "line": 31,
+      "symbol": "UIApplication.build",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/UIImage+Siberia.swift",
+      "line": 32,
+      "symbol": "UIImage.init(color:size:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/UINavigationController+Siberia.swift",
+      "line": 13,
+      "symbol": "UINavigationController.applyTransparentNavigationBar()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/UINavigationController+Siberia.swift",
+      "line": 18,
+      "symbol": "UINavigationController.applyDefaultNavigationBar()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/UINavigationController+Siberia.swift",
+      "line": 25,
+      "symbol": "UINavigationController.applyNavigationBarTheme(backgroundColor:shadowImage:tintColor:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/UINavigationController+Siberia.swift",
+      "line": 31,
+      "symbol": "UINavigationController.pushViewController(_:animated:backText:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/UIView+Gradient.swift",
+      "line": 11,
+      "symbol": "GradientPoints",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/UIView+Gradient.swift",
+      "line": 13,
+      "symbol": "GradientOrientation",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/UIView+Gradient.swift",
+      "line": 14,
+      "symbol": "GradientOrientation.topRightBottomLeft",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/UIView+Gradient.swift",
+      "line": 15,
+      "symbol": "GradientOrientation.topLeftBottomRight",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/UIView+Gradient.swift",
+      "line": 16,
+      "symbol": "GradientOrientation.horizontal",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/UIView+Gradient.swift",
+      "line": 17,
+      "symbol": "GradientOrientation.vertical",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/UIView+Gradient.swift",
+      "line": 41,
+      "symbol": "UIView.applyGradient(colors:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/UIView+Gradient.swift",
+      "line": 45,
+      "symbol": "UIView.applyGradient(colors:locations:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/UIView+Gradient.swift",
+      "line": 52,
+      "symbol": "UIView.applyGradient(colors:gradientOrientation:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/UIView+Siberia.swift",
+      "line": 182,
+      "symbol": "UIView.pinWithConstraint(_:attribute:constant:multiplier:layoutRelation:priority:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/UIView+Siberia.swift",
+      "line": 220,
+      "symbol": "UIView.pinWithZeroInsets(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/UIView+Siberia.swift",
+      "line": 224,
+      "symbol": "UIView.pinWithInsets(_:insets:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/UIView+Siberia.swift",
+      "line": 257,
+      "symbol": "UIView.addCurrentHeightConstraint()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/UIView+Siberia.swift",
+      "line": 261,
+      "symbol": "UIView.addHeightConstraint(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/UIView+Siberia.swift",
+      "line": 271,
+      "symbol": "UIView.addCurrentWidthConstraint()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/UIView+Siberia.swift",
+      "line": 275,
+      "symbol": "UIView.addWidthConstraint(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/UIView+Siberia.swift",
+      "line": 285,
+      "symbol": "UIView.addCurrentSizeConstraints()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/UIView+Siberia.swift",
+      "line": 289,
+      "symbol": "UIView.addSizeConstraints(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/UIView+Siberia.swift",
+      "line": 304,
+      "symbol": "UIView.addSizeConstraints(width:height:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/UIView+Siberia.swift",
+      "line": 308,
+      "symbol": "UIView.addAspectConstraint(_:y:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/UIView+Siberia.swift",
+      "line": 320,
+      "symbol": "UIView.addSpacingConstraint(_:spacingToAttribute:constant:multiplier:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/UIView+Siberia.swift",
+      "line": 347,
+      "symbol": "UIView.startRotating(duration:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/UIView+Siberia.swift",
+      "line": 358,
+      "symbol": "UIView.stopRotating()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/UIViewController+Siberia.swift",
+      "line": 12,
+      "symbol": "UIViewController.showToast(with:width:duration:delay:fontSize:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sergeypetrachkov/SiberianSwift/SiberianSwift/Classes/UIViewController+Siberia.swift",
+      "line": 41,
+      "symbol": "UIViewController.hideKeyboardWhenTappedAround()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/sergeypetrachkov/SiberianSwift"
+}
