@@ -1,4 +1,10 @@
 # SiberianSwift
+
+<p align="center">
+  <img src="https://i.imgur.com/BfdvGYS.png" width="100%">
+</p>
+
+
 [![Version](https://img.shields.io/cocoapods/v/SiberianSwift.svg?style=flat)](http://cocoapods.org/pods/SiberianSwift)
 [![License](https://img.shields.io/cocoapods/l/SiberianSwift.svg?style=flat)](http://cocoapods.org/pods/SiberianSwift)
 [![Platform](https://img.shields.io/cocoapods/p/SiberianSwift.svg?style=flat)](http://cocoapods.org/pods/SiberianSwift)
