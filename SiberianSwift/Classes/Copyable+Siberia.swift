@@ -13,7 +13,7 @@ public protocol Copyable {
 }
 
 public extension Copyable {
-  public func copy() -> Self {
+  func copy() -> Self {
     return Self.init(other: self)
   }
 }

@@ -10,7 +10,7 @@ import Foundation
 
 public extension MutableCollection {
   /// Shuffles the contents of this collection.
-  public mutating func shuffle() {
+  mutating func shuffle() {
     let c = count
     guard c > 1 else { return }
     
@@ -24,7 +24,7 @@ public extension MutableCollection {
 
 public extension Sequence {
   /// Returns an array with the contents of this sequence, shuffled.
-  public func shuffled() -> [Element] {
+  func shuffled() -> [Element] {
     var result = Array(self)
     result.shuffle()
     return result

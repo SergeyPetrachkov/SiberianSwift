@@ -9,10 +9,23 @@
 import Foundation
 
 public extension Optional {
-  public func `or`(_ value : Wrapped?) -> Optional {
+  
+  func `or`(_ value : Wrapped?) -> Optional {
     return self ?? value
   }
-  public func `or`(_ value: Wrapped) -> Wrapped {
+  
+  func `or`(_ value: Wrapped) -> Wrapped {
     return self ?? value
+  }
+}
+
+public extension Optional where Wrapped == String {
+  /// Check if your string is nil or empty
+  func isNilOrEmpty() -> Bool {
+    return self == nil || self == ""
+  }
+  /// Check if your string is nil or empty or whitespace
+  func isNilOrWhiteSpace() -> Bool {
+    return self.isNilOrEmpty() || self == " "
   }
 }
