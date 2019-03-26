@@ -27,7 +27,7 @@ public extension UIColor {
 	}
   
   /// Returns random generated color.
-  public static var random: UIColor {
+  static var random: UIColor {
     srandom(arc4random())
     var red: Double = 0
     

@@ -169,7 +169,7 @@
 				TargetAttributes = {
 					3903E4011FA4EA3200C2DB2C = {
 						CreatedOnToolsVersion = 9.0.1;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -180,6 +180,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 3903E3F81FA4EA3200C2DB2C;
 			productRefGroup = 3903E4031FA4EA3300C2DB2C /* Products */;
@@ -366,7 +367,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -388,7 +389,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.petrachkov.siberianswift;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

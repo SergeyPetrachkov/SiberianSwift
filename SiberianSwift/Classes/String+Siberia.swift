@@ -10,7 +10,7 @@ import UIKit
 
 public extension String {
   /// From string 'Sergey Petrachkov' it will return 'SP'
-  public var initials: String {
+  var initials: String {
     var finalString = String()
     var words = components(separatedBy: .whitespacesAndNewlines)
     
@@ -130,7 +130,7 @@ public extension String {
    
    - Returns: A `String` object.
    */
-  public func truncate(length: Int, truncationToken: String = "") -> String {
+  func truncate(length: Int, truncationToken: String = "") -> String {
     if self.count > length {
       return String(self.prefix(length)) + truncationToken
     } else {
@@ -138,24 +138,28 @@ public extension String {
     }
   }
   
-  public func height(withConstrainedWidth width: CGFloat, font: UIFont) -> CGFloat {
+  func height(withConstrainedWidth width: CGFloat, font: UIFont) -> CGFloat {
     let constraintRect = CGSize(width: width, height: .greatestFiniteMagnitude)
     let boundingBox = self.boundingRect(with: constraintRect, options: .usesLineFragmentOrigin, attributes: [.font: font], context: nil)
     
     return ceil(boundingBox.height)
   }
   
-  public func width(withConstraintedHeight height: CGFloat, font: UIFont) -> CGFloat {
+  func width(withConstraintedHeight height: CGFloat, font: UIFont) -> CGFloat {
     let constraintRect = CGSize(width: .greatestFiniteMagnitude, height: height)
-    let boundingBox = self.boundingRect(with: constraintRect, options: .usesLineFragmentOrigin, attributes: [.font: font], context: nil)
+    let boundingBox = self.boundingRect(with: constraintRect,
+                                        options: .usesLineFragmentOrigin,
+                                        attributes: [.font: font],
+                                        context: nil)
     
     return ceil(boundingBox.width)
   }
   
-  static public func bulletList(from strings: [String]) -> String {
+  static func bulletList(from strings: [String]) -> String {
     return strings.map({ $0.bulleted() }).joined(separator: "\n\r")
   }
-  public func bulleted() -> String {
+  
+  func bulleted() -> String {
     return "\u{2022} " + self
   }
 }

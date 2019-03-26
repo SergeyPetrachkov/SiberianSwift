@@ -9,5 +9,5 @@
 import Foundation
 
 public extension Error {
-  public var code: Int { return (self as NSError).code }
+  var code: Int { return (self as NSError).code }
 }
