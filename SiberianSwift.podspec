@@ -10,6 +10,8 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/SergeyPetrachkov/SiberianSwift.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '9.0'
+  s.watchos.deployment_target = '2.0'
 
   s.source_files = 'SiberianSwift/Classes/**/*'
+
 end

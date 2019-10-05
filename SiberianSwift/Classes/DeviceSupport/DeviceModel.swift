@@ -28,6 +28,9 @@ public enum DeviceModel: String {
   case iPhoneXS
   case iPhoneXSMax
   case iPhoneXR
+  case iPhone11
+  case iPhone11Pro
+  case iPhone11ProMax
   
   // MARK: - iPads
   case iPad1
@@ -44,6 +47,8 @@ public enum DeviceModel: String {
   case iPadPro9_7Inch
   case iPadPro10_5Inch
   case iPadPro12_9Inch
+  case iPadPro11Inch
+  case iPadPro12Inch3
   
   // MARK: - iPods
   case iPodTouch1Gen
