@@ -13,5 +13,5 @@ Pod::Spec.new do |s|
   s.watchos.deployment_target = '2.0'
 
   s.source_files = 'SiberianSwift/Classes/**/*'
-
+  s.swift_versions = '5.1'
 end
