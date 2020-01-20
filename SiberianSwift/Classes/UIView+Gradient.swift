@@ -37,18 +37,20 @@ public enum GradientOrientation {
     }
   }
 }
+
 public extension UIView {
-  func applyGradient(colors: [UIColor]) -> Void {
+  func applyGradient(colors: [UIColor]) {
     self.applyGradient(colors: colors, locations: nil)
   }
   
-  func applyGradient(colors: [UIColor], locations: [NSNumber]?) -> Void {
+  func applyGradient(colors: [UIColor], locations: [NSNumber]?) {
     let gradient: CAGradientLayer = CAGradientLayer()
     gradient.frame = self.bounds
     gradient.colors = colors.map { $0.cgColor }
     gradient.locations = locations
     self.layer.insertSublayer(gradient, at: 0)
   }
+
   func applyGradient(colors: [UIColor], gradientOrientation: GradientOrientation) {
     let gradient: CAGradientLayer = CAGradientLayer()
     gradient.frame = self.bounds

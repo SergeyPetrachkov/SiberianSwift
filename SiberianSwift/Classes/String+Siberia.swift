@@ -99,7 +99,7 @@ public extension String {
     return results
   }
 
-	func regexMatches(pattern: String) -> Array<String> {
+	func regexMatches(pattern: String) -> [String] {
 		let regex: NSRegularExpression
 		do {
 			regex = try NSRegularExpression(pattern: pattern, options: [])
@@ -159,7 +159,7 @@ public extension String {
     return strings.map({ $0.bulleted() }).joined(separator: "\n\r")
   }
   
-  func bulleted() -> String {
-    return "\u{2022} " + self
+  func bulleted(bulletChar: String = "\u{2022}") -> String {
+    return "\(bulletChar) " + self
   }
 }

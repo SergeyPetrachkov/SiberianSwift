@@ -355,10 +355,33 @@ public extension UIView {
       self.layer.add(animate, forKey: kAnimationKey)
     }
   }
+
   func stopRotating() {
     let kAnimationKey = "rotation"
     if self.layer.animation(forKey: kAnimationKey) != nil {
       self.layer.removeAnimation(forKey: kAnimationKey)
     }
+  }
+  
+  // MARK: - Rounding corners
+  
+  /// Round specified corners by given radius
+  /// - parameters:
+  ///     - corners: Desired corners
+  ///     - radius: Given radius
+  ///
+  ///  - seealso `UIRectCorner`
+  ///
+  ///  Code sample
+  ///  ----
+  ///       self.view.roundCorners(corners: [.bottomLeft, .bottomRight] , radius: 4)
+  ///
+  func roundCorners(corners: UIRectCorner, radius: CGFloat) {
+    let path = UIBezierPath(roundedRect: self.bounds,
+                            byRoundingCorners: corners,
+                            cornerRadii: CGSize(width: radius, height: radius))
+    let mask = CAShapeLayer()
+    mask.path = path.cgPath
+    self.layer.mask = mask
   }
 }

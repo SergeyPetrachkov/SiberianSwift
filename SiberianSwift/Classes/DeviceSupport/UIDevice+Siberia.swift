@@ -12,15 +12,15 @@ import UIKit
 public extension UIDevice {
   /// Boolean that states that the current device is iPhone
   var iPhone: Bool {
-    return UIDevice().userInterfaceIdiom == .phone
+    return UIDevice.current.userInterfaceIdiom == .phone
   }
   /// Boolean that states that the current device is iPad
   var iPad: Bool {
-    return UIDevice().userInterfaceIdiom == .pad
+    return UIDevice.current.userInterfaceIdiom == .pad
   }
   /// Boolean that states that the current device is AppleTV
   var appleTV: Bool {
-    return UIDevice().userInterfaceIdiom == .tv
+    return UIDevice.current.userInterfaceIdiom == .tv
   }
   
   enum ScreenType: String {
