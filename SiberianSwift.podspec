@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'SiberianSwift'
-  s.version          = '1.0.16'
+  s.version          = '2.0.0'
   s.summary          = 'SiberianSwift is a bunch of extensions for commonly used classes.'
   s.description      = 'SiberianSwift is a bunch of extensions for commonly used classes. UIView, UIDevice, String, UIApplication, etc'
 
@@ -11,6 +11,6 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'SiberianSwift/Classes/**/*'
+  s.source_files = 'Sources/**/*'
   s.swift_versions = '5.1'
 end
