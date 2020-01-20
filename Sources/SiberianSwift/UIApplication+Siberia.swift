@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 
 public extension UIApplication {
   /// Detect if debugger is attached.

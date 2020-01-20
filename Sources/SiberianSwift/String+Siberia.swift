@@ -6,6 +6,7 @@
 //  Copyright © 2017 SiberianSwift. All rights reserved.
 //
 
+import Foundation
 import UIKit
 
 public extension String {

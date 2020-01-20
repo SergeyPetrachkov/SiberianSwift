@@ -5,6 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "SiberianSwift",
+    platforms: [SupportedPlatform.iOS("9.0")],
     products: [
         // Products define the executables and libraries produced by a package, and make them visible to other packages.
         .library(
