@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'SiberianSwift'
-  s.version          = '2.0.0'
+  s.version          = '2.0.1'
   s.summary          = 'SiberianSwift is a bunch of extensions for commonly used classes.'
   s.description      = 'SiberianSwift is a bunch of extensions for commonly used classes. UIView, UIDevice, String, UIApplication, etc'
 
