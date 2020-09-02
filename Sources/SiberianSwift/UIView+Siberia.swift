@@ -6,6 +6,7 @@
 //  Copyright © 2017 SiberianSwift. All rights reserved.
 //
 
+#if !os(macOS)
 import Foundation
 import UIKit
 
@@ -385,3 +386,4 @@ public extension UIView {
     self.layer.mask = mask
   }
 }
+#endif

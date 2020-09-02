@@ -6,6 +6,7 @@
 //  Copyright © 2018 Sergey Petrachkov. All rights reserved.
 //
 
+#if !os(macOS)
 import UIKit
 
 public extension UIImageView {
@@ -76,4 +77,4 @@ public extension UIImageView {
     return image
   }
 }
-
+#endif

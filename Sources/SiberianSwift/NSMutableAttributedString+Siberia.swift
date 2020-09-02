@@ -7,6 +7,7 @@
 //
 
 import Foundation
+#if !os(macOS)
 import UIKit
 
 public extension NSMutableAttributedString {
@@ -69,3 +70,4 @@ public extension NSMutableAttributedString {
     return ceil(boundingBox.width)
   }
 }
+#endif

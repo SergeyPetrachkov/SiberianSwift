@@ -6,6 +6,7 @@
 //  Copyright © 2018 Sergey Petrachkov. All rights reserved.
 //
 
+#if !os(macOS)
 import UIKit
 
 extension UIViewController {
@@ -49,3 +50,4 @@ extension UIViewController {
     self.view.endEditing(true)
   }
 }
+#endif

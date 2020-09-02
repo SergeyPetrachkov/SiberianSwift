@@ -6,8 +6,10 @@
 //  Copyright © 2018 Sergey Petrachkov. All rights reserved.
 //
 
+#if !os(macOS)
 import Foundation
 import UIKit
+
 public typealias GradientPoints = (startPoint: CGPoint, endPoint: CGPoint)
 
 public enum GradientOrientation {
@@ -60,3 +62,4 @@ public extension UIView {
     self.layer.insertSublayer(gradient, at: 0)
   }
 }
+#endif

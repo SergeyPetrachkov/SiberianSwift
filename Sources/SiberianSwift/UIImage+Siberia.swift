@@ -6,6 +6,7 @@
 //  Copyright © 2017 SiberianSwift. All rights reserved.
 //
 
+#if !os(macOS)
 import UIKit
 
 public extension UIImage {
@@ -41,3 +42,4 @@ public extension UIImage {
     self.init(cgImage: cgImage)
   }
 }
+#endif

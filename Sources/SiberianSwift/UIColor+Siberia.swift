@@ -6,6 +6,7 @@
 //  Copyright © 2016 SiberianSwift. All rights reserved.
 //
 
+#if !os(macOS)
 import UIKit
 
 public extension UIColor {
@@ -48,3 +49,4 @@ public extension UIColor {
     return .init(red: CGFloat(red), green: CGFloat(green), blue: CGFloat(blue), alpha: 1.0)
   }
 }
+#endif

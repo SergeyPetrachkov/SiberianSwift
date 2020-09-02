@@ -9,7 +9,8 @@
 import Foundation
 
 public extension FileManager {
-	func listFiles(path: String) -> [URL] {
+  @available(iOS 9.0, OSX 10.11, *)
+  func listFiles(path: String) -> [URL] {
 		let baseUrl: URL = URL(fileURLWithPath: path)
 		var urls = [URL]()
 		enumerator(atPath: path)?.forEach({ (e) in

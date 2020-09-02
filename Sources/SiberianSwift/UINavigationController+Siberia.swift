@@ -6,9 +6,9 @@
 //  Copyright © 2017 Sergey Petrachkov. All rights reserved.
 //
 
+#if !os(macOS)
 import Foundation
 import UIKit
-
 public extension UINavigationController {
   
   func applyTransparentNavigationBar() {
@@ -45,3 +45,4 @@ public extension UINavigationController {
     self.pushViewController(viewController, animated: animated)
   }
 }
+#endif

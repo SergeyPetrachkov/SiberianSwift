@@ -6,8 +6,9 @@
 //  Copyright © 2017 SiberianSwift. All rights reserved.
 //
 
-import Foundation
+#if !os(macOS)
 import UIKit
+import Foundation
 
 public extension UIDevice {
   /// Boolean that states that the current device is iPhone
@@ -230,3 +231,4 @@ public extension UIDevice {
     }
   }
 }
+#endif

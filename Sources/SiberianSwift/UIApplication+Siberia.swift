@@ -6,6 +6,7 @@
 //  Copyright © 2017 SiberianSwift. All rights reserved.
 //
 
+#if !os(macOS)
 import Foundation
 import UIKit
 
@@ -51,3 +52,4 @@ public extension UIApplication {
     return versionAndBuild
   }
 }
+#endif

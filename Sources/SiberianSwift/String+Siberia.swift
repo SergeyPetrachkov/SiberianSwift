@@ -7,7 +7,13 @@
 //
 
 import Foundation
+#if !os(macOS)
 import UIKit
+public typealias Font = UIFont
+#else
+import AppKit
+public typealias Font = NSFont
+#endif
 
 public extension String {
   /// From string 'Sergey Petrachkov' it will return 'SP'
@@ -138,15 +144,17 @@ public extension String {
       return self
     }
   }
-  
-  func height(withConstrainedWidth width: CGFloat, font: UIFont) -> CGFloat {
+
+  @available(iOS 9.0, OSX 10.11, *)
+  func height(withConstrainedWidth width: CGFloat, font: Font) -> CGFloat {
     let constraintRect = CGSize(width: width, height: .greatestFiniteMagnitude)
     let boundingBox = self.boundingRect(with: constraintRect, options: .usesLineFragmentOrigin, attributes: [.font: font], context: nil)
     
     return ceil(boundingBox.height)
   }
   
-  func width(withConstraintedHeight height: CGFloat, font: UIFont) -> CGFloat {
+  @available(iOS 9.0, OSX 10.11, *)
+  func width(withConstraintedHeight height: CGFloat, font: Font) -> CGFloat {
     let constraintRect = CGSize(width: .greatestFiniteMagnitude, height: height)
     let boundingBox = self.boundingRect(with: constraintRect,
                                         options: .usesLineFragmentOrigin,
