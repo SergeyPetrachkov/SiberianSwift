@@ -31,6 +31,8 @@ To install SiberianSwift you can also use Carthage. Just add the following to yo
 github "SergeyPetrachkov/SiberianSwift"
 ```
 
+You can also use Swift Package Manager with Xcode 11 and newer.
+
 ## Contributing
 
 * [Fork it](http://help.github.com/forking/)
