@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 
 public enum DeviceModel: String {
   // MARK: - iPhones
@@ -49,6 +50,7 @@ public enum DeviceModel: String {
   case iPadMini2
   case iPadMini3
   case iPadMini4
+  case iPadMini5
   case iPadPro9_7Inch
   case iPadPro10_5Inch
   case iPadPro12_9Inch
@@ -68,4 +70,49 @@ public enum DeviceModel: String {
   
   case simulator
   case unknown
+
+  var diagonal: Double {
+    switch self {
+    case .iPhone4: return 3.5
+    case .iPhone4S: return 3.5
+    case .iPhone5: return 4
+    case .iPhone5C: return 4
+    case .iPhone5S: return 4
+    case .iPhone6: return 4.7
+    case .iPhone6Plus: return 5.5
+    case .iPhone6S: return 4.7
+    case .iPhone6SPlus: return 5.5
+    case .iPhone7: return 4.7
+    case .iPhone7Plus: return 5.5
+    case .iPhoneSE: return 4
+    case .iPhone8: return 4.7
+    case .iPhone8Plus: return 5.5
+    case .iPhoneX: return 5.8
+    case .iPhoneXS: return 5.8
+    case .iPhoneXSMax: return 6.5
+    case .iPhoneXR: return 6.1
+    case .iPhone11: return 6.1
+    case .iPhone11Pro: return 5.8
+    case .iPhone11ProMax: return 6.5
+    case .iPhoneSE2: return 4.7
+    case .iPhone12: return 6.1
+    case .iPhone12Mini: return 5.4
+    case .iPhone12Pro: return 6.1
+    case .iPhone12ProMax: return 6.7
+    case .iPad2: return 9.7
+    case .iPad3: return 9.7
+    case .iPad4: return 9.7
+    case .iPadAir: return 9.7
+    case .iPadAir2: return 9.7
+    case .iPad5: return 9.7
+    case .iPadMini: return 7.9
+    case .iPadMini2: return 7.9
+    case .iPadMini3: return 7.9
+    case .iPadMini4: return 7.9
+    case .iPadMini5: return 7.9
+    case .iPadPro11Inch: return 11.0
+    case .iPadPro12Inch3: return 12.9
+    default: return -1
+    }
+  }
 }

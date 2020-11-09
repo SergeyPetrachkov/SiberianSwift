@@ -41,6 +41,11 @@ public extension UIDevice {
     case iPhone5_8
     case iPhone6_5Inch
     case iPhone6_1Inch
+
+    /// iPhone 12 mini
+    case iPhone5_4Inch
+    /// iPhone 12 Pro max
+    case iPhone6_7Inch
     /// iPadMini
     case iPadMini
     /// iPad9.7 inch
@@ -52,7 +57,7 @@ public extension UIDevice {
     /// Unrecognized screen size
     case unrecognized
   }
-  
+
   /// Device screen type
   var screenType: ScreenType {
     let width: Double = Double(UIScreen.main.bounds.width)
@@ -68,11 +73,17 @@ public extension UIDevice {
       return UIScreen.main.scale == 3.0 ? .iPhonePlusZoomed : .iPhone4_7Inch
     case 736:
       return .iPhonePlus
+    case 812 where modelName == .iPhone12Mini:
+      return .iPhone5_4Inch
     case 812:
       return .iPhone5_8
+    case 844:
+      return .iPhone6_1Inch
+    case 926:
+      return .iPhone6_7Inch
     case 896:
       return UIScreen.main.scale == 3.0 ? .iPhone6_5Inch : .iPhone6_1Inch
-      
+
     case 1024:
       switch modelName {
       case .iPadMini,.iPadMini2,.iPadMini3,.iPadMini4:
@@ -91,9 +102,17 @@ public extension UIDevice {
       return .unrecognized
     }
   }
-  
+
   var isSmallScreen : Bool {
-    return screenType == .iPhone4 || screenType == .iPhone5 || screenType == .iPhonePlusZoomed
+    return self.modelName.diagonal < 4.7 || self.screenType == .iPhonePlusZoomed
+  }
+
+  var hasNotch: Bool {
+    return self.screenType == .iPhone5_8
+      || self.screenType == .iPhone6_1Inch
+      || self.screenType == .iPhone6_5Inch
+      || self.screenType == .iPhone5_4Inch
+      || self.screenType == .iPhone6_7Inch
   }
   
   func SYSTEM_VERSION_EQUAL_TO(_ version: String) -> Bool {
@@ -130,8 +149,16 @@ public extension UIDevice {
       guard let value = element.value as? Int8 , value != 0 else { return identifier }
       return identifier + String(UnicodeScalar(UInt8(value)))
     }
-    switch identifier {
-      
+
+    if identifier == "i386" || identifier == "x86_64", let dir = ProcessInfo().environment["SIMULATOR_MODEL_IDENTIFIER"] {
+      return self.resolveNameToDeviceModel(name: dir)
+    } else {
+      return self.resolveNameToDeviceModel(name: identifier)
+    }
+  }
+
+  func resolveNameToDeviceModel(name: String) -> DeviceModel {
+    switch name {
     case "iPhone3,1", "iPhone3,2", "iPhone3,3":
       return .iPhone4
     case "iPhone4,1":
@@ -217,7 +244,7 @@ public extension UIDevice {
       return .iPadPro11Inch
     case "iPad8,5", "iPad8,6", "iPad8,7", "iPad8,8":
       return .iPadPro12Inch3
-      
+
     case "iPod1,1":
       return .iPodTouch1Gen
     case "iPod2,1":
@@ -230,12 +257,12 @@ public extension UIDevice {
       return .iPodTouch5Gen
     case "iPod7,1":
       return .iPodTouch6Gen
-      
+
     case "AppleTV5,3":
       return .AppleTV
     case "i386", "x86_64":
       return .simulator
-      
+
     default:
       return .unknown
     }
