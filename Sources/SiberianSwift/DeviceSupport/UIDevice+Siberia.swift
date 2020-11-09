@@ -174,6 +174,16 @@ public extension UIDevice {
       return .iPhone11Pro
     case "iPhone12,5":
       return .iPhone11ProMax
+    case "iPhone12,8":
+      return .iPhoneSE2
+    case "iPhone13,2":
+      return .iPhone12
+    case "iPhone13,1":
+      return .iPhone12Mini
+    case "iPhone13,3":
+      return .iPhone12Pro
+    case "iPhone13,4":
+      return .iPhone12ProMax
 
     case "iPad1,1":
       return .iPad1

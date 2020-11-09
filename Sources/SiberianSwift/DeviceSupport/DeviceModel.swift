@@ -31,6 +31,11 @@ public enum DeviceModel: String {
   case iPhone11
   case iPhone11Pro
   case iPhone11ProMax
+  case iPhoneSE2
+  case iPhone12
+  case iPhone12Mini
+  case iPhone12Pro
+  case iPhone12ProMax
   
   // MARK: - iPads
   case iPad1
