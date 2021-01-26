@@ -150,7 +150,7 @@ public extension UIDevice {
       return identifier + String(UnicodeScalar(UInt8(value)))
     }
 
-    if identifier == "i386" || identifier == "x86_64", let dir = ProcessInfo().environment["SIMULATOR_MODEL_IDENTIFIER"] {
+    if identifier == "i386" || identifier == "x86_64" || identifier == "arm64", let dir = ProcessInfo().environment["SIMULATOR_MODEL_IDENTIFIER"] {
       return self.resolveNameToDeviceModel(name: dir)
     } else {
       return self.resolveNameToDeviceModel(name: identifier)
